@@ -1,0 +1,24 @@
+{
+ "version":"1.0","candidate":"F2a","ids":{"training":[0,1,2,3,4,5,6,7,8,9,10,11],"development":[100,101,102,103,104,105,106,107],"calibration":[200,201,202,203,204,205,206,207,208,209,210,211],"final":[300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315]},
+ "nested_realizations":[0,1],"steps":128,"horizons":[1,16,64],"origins":[0,16,32,48,64],
+ "numerical_profile":"1 worker, one BLAS thread; 120 cumulative CPU-minute ceiling; no adaptive sample extension",
+ "inference":"32 accessible reset triplets per target world; finite difference .002; one constrained fit of two coefficients. Per-world adaptation, not zero-shot numerical-constant transfer.",
+ "candidate_tuning_trials":1,"baseline_tuning_trials":1,"sparse_threshold":0.02,"legacy_alpha":0.0001,
+ "comparators":["no_lift_quadratic","linear_drift","sparse_degree7","F0_P_legacy","persistence","training_mean"],
+ "primary":"paired world mean F2 minus comparator MSE at horizon16; comparator selected from development at same horizon; all baselines retained",
+ "inference_statistics":"4000 paired world bootstrap draws, stratified by id modulo4; 98.333333 percentile intervals for 3 families; approximate Bonferroni descriptive intervals, not exact guarantees",
+ "margin":0.0001,"margin_units":"fixed nondimensional squared position; engineering threshold, not physical significance",
+ "uncertainty":"per-family world maximum absolute residual across replicates,origins,horizons; 80% order-statistic rank11 of12 calibration worlds; shifted final coverage descriptive",
+ "divergence":"nonfinite or |prediction|>1e6; loss cap1e12; retain count and uncapped finite errors",
+ "physical_tolerances":{"deterministic_trajectory":0.00001,"density":1e-10,"work_balance":0.0001,"manifold":0.00001,"closure_algebra":1e-10},
+ "core_battery":{
+  "A":"2D continuous OU, known gain/full rank/rank loss/missing masks and unknown gain gauge; direct linear F2 exact moments versus independent diagonal OU formula and Kalman; 16 fixed worlds,2 realizations,128 steps; no learned physical parameters here",
+  "B":"scalar cubic/quintic/logistic identification plus oracle Duffing; manifold/off-manifold; Ito cubic lift; degree7 analytic grammar obstruction and fixed quintic mismatch, not discovery",
+  "C":"oracle harmonic/forced+damped Duffing; mechanical energy and integrated work-dissipation, no conservation in driven case",
+  "D":"two endpoints,delay1/3,disconnected,swapped decode,common input,known sensor gain,external probe and hybrid quantum control;128 steps; independent analytic environment reference",
+  "E":"qubit amplitude damping/dephasing, valid conditional instruments, finite Choi check, unital restriction; one/two-qubit finite construction; known channel comparator",
+  "F":"all8 bit states x25 ordered gate pairs,128-step predeclared tape,erase/provenance cardinality; truth-table comparator"
+ },
+ "legacy_disposition":{"S01":"A: restricted continuous analogue, not full old discrete family replay","S02":"B/C: Duffing direct oracle and scalar lifted identification","S03":"C: harmonic/dissipative; central-force trajectories NOT_RUN","S04":"A plus Ito lift; detailed-balance thermodynamics retained obligation NOT_RUN","S05":"NOT_MAPPED: clipped resource/saturating harvest not in polynomial continuous grammar; no direct run","S06":"D: explicitly augmented delayed loop, different reference than old S06","S07":"NOT_MAPPED: tanh coupling not declared; common-input control in D does not cover S07","S08":"direct local synchronous linear lattice construction plus graph cone","S09":"E: finite imported quantum channel/instrument","S10":"F: direct ordered bit operations; imported logical rules, no learning claim"},
+ "independence":"shared filesystem, visible reference equations; internal procedural freeze, not blinded or externally preregistered. All old worlds are historical."
+}

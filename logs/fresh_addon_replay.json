@@ -1,0 +1,25 @@
+{
+  "replayed": [
+    {
+      "status": "imported_unreviewed",
+      "study_id": "HISTORICAL_GOP_AUDIT_20261002",
+      "evidence_id": "HISTORICAL_F0_GENERATOR_PREDICTOR_GAP",
+      "version": 1,
+      "record_sha256": "cc109dc6f83800afdc1ed3b9c3b01bec5d455cf78b1b882130ca8f918be43517",
+      "record_path": "evidence/records/HISTORICAL_F0_GENERATOR_PREDICTOR_GAP/v1/record.json",
+      "source_sha256": "785a1ba24e21bd41412991f7a861583ac92e773c6b724dbded526ea73436cefc",
+      "lineage_group": "GOP_TOE_FORMALIZATION_v0_1_ARCHIVE_b4114551",
+      "review_status": "unreviewed",
+      "proposed_relation": "constrains",
+      "warnings": [
+        "assumption_bridge_unresolved"
+      ]
+    }
+  ],
+  "verification": {
+    "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+    "unchanged_core": true,
+    "records_verified": 1,
+    "scientific_validation": false
+  }
+}

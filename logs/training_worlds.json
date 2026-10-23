@@ -1,0 +1,434 @@
+[
+  {
+    "family": "cubic",
+    "world_id": 0,
+    "rep": 0,
+    "observed_sha": "e855a91103a4804d7631a455af16ac07a8d712fdccc5f5e8d58b02b86fe3ec72"
+  },
+  {
+    "family": "cubic",
+    "world_id": 0,
+    "rep": 1,
+    "observed_sha": "927d07e425459889fc4c03d7447942f57bf0f9d3c18ca1130231398b24d8b8c5"
+  },
+  {
+    "family": "cubic",
+    "world_id": 1,
+    "rep": 0,
+    "observed_sha": "57083d6a998eefa861e2608c34cb04f02e3c2c6456a3de88e5da12a02b4bf3f3"
+  },
+  {
+    "family": "cubic",
+    "world_id": 1,
+    "rep": 1,
+    "observed_sha": "8f7193e9154b7464cbcad3b0635368311a96222ddeccdfbfa7192b53f9d4e60c"
+  },
+  {
+    "family": "cubic",
+    "world_id": 2,
+    "rep": 0,
+    "observed_sha": "4886a5d018327af15675a1fc4c45224f21d61d3a9c2cdb40fea7b01807c0f8b5"
+  },
+  {
+    "family": "cubic",
+    "world_id": 2,
+    "rep": 1,
+    "observed_sha": "1151cf52a6cdcfe7f333f838cc40d9b8aba0454f1fba4e0d27a23c15fcfd31e9"
+  },
+  {
+    "family": "cubic",
+    "world_id": 3,
+    "rep": 0,
+    "observed_sha": "f8081b53d7b80fb71dc5e0bc9db13803c879b7e5181016eba98658495b42a853"
+  },
+  {
+    "family": "cubic",
+    "world_id": 3,
+    "rep": 1,
+    "observed_sha": "ec51a3b3aedf76d315e33dba345fd49f8c4df35630674b49ddcbb4050d605b88"
+  },
+  {
+    "family": "cubic",
+    "world_id": 4,
+    "rep": 0,
+    "observed_sha": "74ec7615db2ca8ed32a3c5a76d64b646b29b69c301c798e709621f386995aa85"
+  },
+  {
+    "family": "cubic",
+    "world_id": 4,
+    "rep": 1,
+    "observed_sha": "a0130c2719e82bf544d100ab60d432aee152e0d3a6f230b26486435fafe8d602"
+  },
+  {
+    "family": "cubic",
+    "world_id": 5,
+    "rep": 0,
+    "observed_sha": "a830f4fc568eb40bf9b4e2c8e51cf8109504f99dcbf8030301007a82a61d2ecb"
+  },
+  {
+    "family": "cubic",
+    "world_id": 5,
+    "rep": 1,
+    "observed_sha": "c2c81677b66082ec12173dba88bc769d5ba471296bc2c9e74c3e066048b16057"
+  },
+  {
+    "family": "cubic",
+    "world_id": 6,
+    "rep": 0,
+    "observed_sha": "ed26ef5b37e28cfce4d5c15d5df328477639d9adbd0e5d3cbfb9e1279844b324"
+  },
+  {
+    "family": "cubic",
+    "world_id": 6,
+    "rep": 1,
+    "observed_sha": "87e6b31700ff3c0da3b18113e58c0973495d8e13856044824f4a11a1a069a466"
+  },
+  {
+    "family": "cubic",
+    "world_id": 7,
+    "rep": 0,
+    "observed_sha": "0da6ff5360114d19f839f2e73a761b4d6ab4e4aae9b4979314d6c5d11e10b17d"
+  },
+  {
+    "family": "cubic",
+    "world_id": 7,
+    "rep": 1,
+    "observed_sha": "a3d2189ea8468ad34f8607e82ee9c9a8e98c6bdadecc281bbcd0889262d51bf9"
+  },
+  {
+    "family": "cubic",
+    "world_id": 8,
+    "rep": 0,
+    "observed_sha": "4d006454a672830e0242e67c46c9a8b611f20c92bc4712ebc6904183bd7a54ae"
+  },
+  {
+    "family": "cubic",
+    "world_id": 8,
+    "rep": 1,
+    "observed_sha": "10edd13556c150fb996771e1fa8cc91d69bbe592f2e7b01788b3ccc63df35308"
+  },
+  {
+    "family": "cubic",
+    "world_id": 9,
+    "rep": 0,
+    "observed_sha": "fa3991cae200eb1ff8c2e97b4e590d6121d0a8d14e41caae33fa6b71f0c859f2"
+  },
+  {
+    "family": "cubic",
+    "world_id": 9,
+    "rep": 1,
+    "observed_sha": "68c148847f56357f70e3c884a76646d76ee3be5b37d830102a7bd622f03f76e2"
+  },
+  {
+    "family": "cubic",
+    "world_id": 10,
+    "rep": 0,
+    "observed_sha": "7e8f0a59655a34d671229ee556bfd60c2f4780b65730e749e3e0b16a54998841"
+  },
+  {
+    "family": "cubic",
+    "world_id": 10,
+    "rep": 1,
+    "observed_sha": "b122621b437dd4d3b1519102484b34e9e332a49cca9b6502184182abc1c759b1"
+  },
+  {
+    "family": "cubic",
+    "world_id": 11,
+    "rep": 0,
+    "observed_sha": "d3f115fc5e59053132010ce529cfa38c2cef25badbc4906b0450bae096a8ac73"
+  },
+  {
+    "family": "cubic",
+    "world_id": 11,
+    "rep": 1,
+    "observed_sha": "2f6b386af55c7e54c927bd4cb7a2d8762646886dc5efdeb3ffd4d5b30077c0bc"
+  },
+  {
+    "family": "quintic",
+    "world_id": 0,
+    "rep": 0,
+    "observed_sha": "51430887e014b4da88dfcea0b89951c233c4f47ee8bd625581c9f5a1a883a693"
+  },
+  {
+    "family": "quintic",
+    "world_id": 0,
+    "rep": 1,
+    "observed_sha": "0b592ec3efd7c04be663fb7b71e6bb57780dba09bf2a7774aab6966f066746c5"
+  },
+  {
+    "family": "quintic",
+    "world_id": 1,
+    "rep": 0,
+    "observed_sha": "38cb80686f0c620ff850811ac8a5df03ffa8c939d9096dd6ff964a4c0dcd7c2e"
+  },
+  {
+    "family": "quintic",
+    "world_id": 1,
+    "rep": 1,
+    "observed_sha": "3d007db6e543af050f26cf98831cef3e256b5b688e1ea8f581696848bccf6472"
+  },
+  {
+    "family": "quintic",
+    "world_id": 2,
+    "rep": 0,
+    "observed_sha": "0bf949f31c417a541900cbb15e2af93a0099376eac5b5fe7fa87f63bd9bd34d6"
+  },
+  {
+    "family": "quintic",
+    "world_id": 2,
+    "rep": 1,
+    "observed_sha": "8bf0e37be692687a9527ebb57cc1724dbce1985641b1cef2d00ed52e4401c67c"
+  },
+  {
+    "family": "quintic",
+    "world_id": 3,
+    "rep": 0,
+    "observed_sha": "60a4bbd8a8c65604d4f0389aa3e7baca7777b6a2c51f2cc79da334a6b7dc618d"
+  },
+  {
+    "family": "quintic",
+    "world_id": 3,
+    "rep": 1,
+    "observed_sha": "be68c522d7c1917520baac9fc806d13a4ec3d02f8fa8f8705f7024d63710a288"
+  },
+  {
+    "family": "quintic",
+    "world_id": 4,
+    "rep": 0,
+    "observed_sha": "fc51f3edcda9ad0ac142ed2707c1f8d6df8a80fb63bbae2fd34d36709b535d7c"
+  },
+  {
+    "family": "quintic",
+    "world_id": 4,
+    "rep": 1,
+    "observed_sha": "281cdfe5f0209a49158359c9c294087598f3bab0f2f1055eb47ddd3c7bfa3e5f"
+  },
+  {
+    "family": "quintic",
+    "world_id": 5,
+    "rep": 0,
+    "observed_sha": "f2f4af5d3568e40972f6fffc38e6c7cfee709fa228271816be2d7772a2b9f228"
+  },
+  {
+    "family": "quintic",
+    "world_id": 5,
+    "rep": 1,
+    "observed_sha": "0863b74c3c605c98cb6eafc3e0516df85def57b9f663049a6485f2a248b4116c"
+  },
+  {
+    "family": "quintic",
+    "world_id": 6,
+    "rep": 0,
+    "observed_sha": "e8c0029c9532d6e049b5acaf9d89293a54a5f42b1df9c5dfbfa1f5ce3272970d"
+  },
+  {
+    "family": "quintic",
+    "world_id": 6,
+    "rep": 1,
+    "observed_sha": "8a8b356435697d6373296b2ecbaaa46a1f0668fff4ec663dcaaecc29449cd811"
+  },
+  {
+    "family": "quintic",
+    "world_id": 7,
+    "rep": 0,
+    "observed_sha": "6f11d24a60c8d8d6b182b6e12a83a0caa23cb7022f9e688048fe1307347af8d0"
+  },
+  {
+    "family": "quintic",
+    "world_id": 7,
+    "rep": 1,
+    "observed_sha": "e98b4eeffd9ea324aeb6d46b0b6d817d201d44ed2448f5ad9312378cf425879c"
+  },
+  {
+    "family": "quintic",
+    "world_id": 8,
+    "rep": 0,
+    "observed_sha": "b62ca60775843e1cc466f70a4b41fd4a3308a36a35dda18831577ca175fe1a44"
+  },
+  {
+    "family": "quintic",
+    "world_id": 8,
+    "rep": 1,
+    "observed_sha": "779186be554bab24aa6265982103609d301e2b7b27ef0e40b0cbec472606a8ca"
+  },
+  {
+    "family": "quintic",
+    "world_id": 9,
+    "rep": 0,
+    "observed_sha": "0b94e9bf7dd48dd0b66f118a68b17e7ee5094ee6ee23bfcb41e41adffbd023db"
+  },
+  {
+    "family": "quintic",
+    "world_id": 9,
+    "rep": 1,
+    "observed_sha": "a890431adac89c7158508d6fbfa79410742f7f4c6df585ff0ee7bed12dfcd507"
+  },
+  {
+    "family": "quintic",
+    "world_id": 10,
+    "rep": 0,
+    "observed_sha": "32839eedbe15b1684d25e0f34e3a423cd46ea2aeb714b1a921240d5d77ea5d0b"
+  },
+  {
+    "family": "quintic",
+    "world_id": 10,
+    "rep": 1,
+    "observed_sha": "a04a00bc2a1d36261211a475eee34e4aa47421ad0019860526693044074aa307"
+  },
+  {
+    "family": "quintic",
+    "world_id": 11,
+    "rep": 0,
+    "observed_sha": "78601c69caa34303e1142d78e44dd928d14c563e3a740fa4985123b69ab77b53"
+  },
+  {
+    "family": "quintic",
+    "world_id": 11,
+    "rep": 1,
+    "observed_sha": "23dfaf1badf4c928ae51769f6cbdd9f4b5ba90f7f91a967f582d7623481ff276"
+  },
+  {
+    "family": "logistic",
+    "world_id": 0,
+    "rep": 0,
+    "observed_sha": "a445cfee178c1a919c5d97da30979514005c6ff88a17be03e6d8fd99f2530a19"
+  },
+  {
+    "family": "logistic",
+    "world_id": 0,
+    "rep": 1,
+    "observed_sha": "ebb3d90a19ac4f832914c91aa2b60c5ec64a1b34c585e6dc219020575ecb35b5"
+  },
+  {
+    "family": "logistic",
+    "world_id": 1,
+    "rep": 0,
+    "observed_sha": "d96758c64cba6cc61c6eeb43de1f12bacc14713446cf4820394aaa59c6866deb"
+  },
+  {
+    "family": "logistic",
+    "world_id": 1,
+    "rep": 1,
+    "observed_sha": "ad31ef2bbaa4db576fa41166a3256502fd265a0d05e4960b671a35155b5f8f17"
+  },
+  {
+    "family": "logistic",
+    "world_id": 2,
+    "rep": 0,
+    "observed_sha": "23e39ad2acf968bf513836001e6ea9f7aec06c6148a7d9e0406c35f9d85ca4a0"
+  },
+  {
+    "family": "logistic",
+    "world_id": 2,
+    "rep": 1,
+    "observed_sha": "e953c3319349cd163e0ee658889bf1e0054c865be3df34ab1d08735c434c572f"
+  },
+  {
+    "family": "logistic",
+    "world_id": 3,
+    "rep": 0,
+    "observed_sha": "05f70158cccd1fd1932047a08813999ac2e49e3c3edf30bdd89e95ca53580b6c"
+  },
+  {
+    "family": "logistic",
+    "world_id": 3,
+    "rep": 1,
+    "observed_sha": "3ab756d54a49eecfc047463784aef58b25e162d52bee8eecf808a469e42713b0"
+  },
+  {
+    "family": "logistic",
+    "world_id": 4,
+    "rep": 0,
+    "observed_sha": "1fea43e1a7f4ea1afaaab73ed88a10a9355ccbdf900d70765f49193ef47f5c58"
+  },
+  {
+    "family": "logistic",
+    "world_id": 4,
+    "rep": 1,
+    "observed_sha": "10d8282fed6d00fc61f8b9b5747436b17df26235fa43a20da7e58fc0d7592b3a"
+  },
+  {
+    "family": "logistic",
+    "world_id": 5,
+    "rep": 0,
+    "observed_sha": "2a2ecfa8a2902e339c43bb709dc930523d5f5682b83ebdbb128144e785da55e1"
+  },
+  {
+    "family": "logistic",
+    "world_id": 5,
+    "rep": 1,
+    "observed_sha": "948e88a2d5f4b977c082d885796fec1e409386cd54f400abb73acd8f235a2c7d"
+  },
+  {
+    "family": "logistic",
+    "world_id": 6,
+    "rep": 0,
+    "observed_sha": "dc4d9d285fccfa713ab2138086800d36d309f8cc1020159a83eeb4492604e0dd"
+  },
+  {
+    "family": "logistic",
+    "world_id": 6,
+    "rep": 1,
+    "observed_sha": "acdb524298af3b2bf753eb5e58d6f7736870cdce6f279e72cd297ccd003260ff"
+  },
+  {
+    "family": "logistic",
+    "world_id": 7,
+    "rep": 0,
+    "observed_sha": "9ea620d6d0f90e81a2a24bc5b34f9a3d5cd011626f750a053a551e594dd2e8cc"
+  },
+  {
+    "family": "logistic",
+    "world_id": 7,
+    "rep": 1,
+    "observed_sha": "07b0cc53a8587ec3a02548b6ca71d9bcd6fb1510064a8a5a9773e068b7764b8e"
+  },
+  {
+    "family": "logistic",
+    "world_id": 8,
+    "rep": 0,
+    "observed_sha": "6365cacc0ca7daac98d717a20301c2f62587da8ac803f7ebaeef19a361b0cb98"
+  },
+  {
+    "family": "logistic",
+    "world_id": 8,
+    "rep": 1,
+    "observed_sha": "3515654e055743026b1a66efadd21afc3aefa17cef65c11d9de5fd1de0bffc7e"
+  },
+  {
+    "family": "logistic",
+    "world_id": 9,
+    "rep": 0,
+    "observed_sha": "eb661dde4a9b214353a775d9442912a3a1348f90d743a2f1088dc7c9aaf3e144"
+  },
+  {
+    "family": "logistic",
+    "world_id": 9,
+    "rep": 1,
+    "observed_sha": "4096404cdeb805c169a1d4cde6b0e21388e3114f07056ea0fb420014a3d6cc43"
+  },
+  {
+    "family": "logistic",
+    "world_id": 10,
+    "rep": 0,
+    "observed_sha": "b8988bcd72fabf59dfd666379324a1ff64b1da2e2e996fa6d25fdf2e8bd4bbb4"
+  },
+  {
+    "family": "logistic",
+    "world_id": 10,
+    "rep": 1,
+    "observed_sha": "a73d600fc8f940835b689bb278581f9f59f2fb2ca5f9eaece2386ad25f836a4d"
+  },
+  {
+    "family": "logistic",
+    "world_id": 11,
+    "rep": 0,
+    "observed_sha": "549ec8c498c86039d125af4ecd6aa92013c46fb26afbff862bb667fb160314f6"
+  },
+  {
+    "family": "logistic",
+    "world_id": 11,
+    "rep": 1,
+    "observed_sha": "5b531be55bd7c3d33256a4e9e0390db1115ca43abf2530245f0f1ba1f30cccc0"
+  }
+]

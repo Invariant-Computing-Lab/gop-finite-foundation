@@ -1,0 +1,45 @@
+\section{Finite candidate F2a}
+The conjecture is a common physically constrained law architecture for physical processes and embedded observation, representation, communication and action. No new universal physical constant or cross-sector law is derived in this release.
+For $v=(z,u)$, the explicit classical operator is
+\begin{align}
+ dz_i&=P_i(z,u)\,dt+\sum_a Q_{ia}(z)\,dW_a,\\
+ P_i&=c_i+\sum_j A_{ij}v_j+\sum_{j\leq k} B_{ijk}v_jv_k.
+\end{align}
+$Q$ has degree at most two in $z$. Every sparse coefficient and index is stored. Local physical blocks have $d\leq8$, at most $\min(2d,16)$ derived coordinates $w_j=x^{\alpha_j}$ with $2\leq|\alpha_j|\leq4$, and identity physical decoder. Coefficient magnitudes are bounded by1000 in fixed nondimensional reference units. No hidden physical state is relabeled as a derived lift.
+For $dx=f\,dt+G\,dW$, admissibility requires
+\[
+ \dot L\big|_{\rm drift}=DLf+\tfrac12\operatorname{tr}(GG^\top\nabla^2L),\qquad Q_L=DLG.
+\]
+Both must close in the finite grammar, and the same Wiener processes must be used. Deterministic lifted trajectories are not projected.
+
+\subsection{Scalar and mechanical specializations}
+For $r\in\{2,4\}$ and $a,b\geq0$,
+\[
+ \dot x=-ax-bxw,\quad\dot w=-ra w-rb w^2,\quad w(0)=x(0)^r.
+\]
+Then $e=w-x^r$ satisfies $\dot e=-r(a+bw)e$. On the invariant manifold this is the cubic/quintic dissipative law, with $x\dot x\leq0$. For additive noise in the cubic case,
+\[
+ dw=(-2aw-2bw^2+\sigma^2)dt+2\sigma x\,dW.
+\]
+For the Duffing example $z=(q,v,w,r)=(q,v,q^2,qv)$,
+\begin{align}
+ \dot q&=v,&\dot v&=-\alpha q-\beta qw-\delta v+u,\\
+ \dot w&=2r,&\dot r&=v^2-\alpha w-\beta w^2-\delta r+qu.
+\end{align}
+For $E=v^2/2+\alpha q^2/2+\beta q^4/4$, $\dot E=uv-\delta v^2$. This follows from the imported mechanical equation and does not derive mechanics from occupational premises.
+
+\subsection{Typed causal step}
+\[
+ \mathcal K_h=\mathcal D_h\circ\mathcal C\circ\mathcal A\circ\mathcal U\circ\mathcal O.
+\]
+Measurement is affine with declared covariance and mask; classical backaction is affine. Internal and action maps are explicit quadratic polynomials. Two endpoints consume their old incoming buffers; each directed FIFO has delay one to four ticks. External probes are recorded separately. This open apparatus model does not claim a closed energy budget.
+For quantum registers of at most two qubits,
+\[
+ \mathcal L(\rho)=-i[H,\rho]+\sum_a\gamma_a\left(J_a\rho J_a^\dagger-\tfrac12\{J_a^\dagger J_a,\rho\}\right),\quad\Phi_h=e^{h\mathcal L}.
+\]
+The Pauli Hamiltonian, nonnegative rates, Pauli and local lowering/raising jumps, Born probabilities and instruments are imported. $M_s=\sqrt{(I+s\eta P)/2}$ with $|\eta|\leq1$ gives outcome probability $\operatorname{tr}(M_s\rho M_s^\dagger)$. Only outcomes enter classical registers. Conditional states divide only by positive probabilities. General coupled ensembles are positive matrix-valued measures; a simulated pair $(z,\rho)$ is a conditioned trajectory, not an assumption of ensemble factorization.
+For discrete registers, CNOT is $(a,a+b-2ab,c)$ on $\{0,1\}^3$; erasure, NOT and rotation are separate stored maps. Composition order is part of the operator.
+
+\subsection{A bounded counterexample and the universal obligation}
+Let $\dot x=-x-x^7$ and $M\leq4$ be the largest selected monomial degree (including $x$). The derivative of $x^M$ has nonzero degree $M+6$, whereas any quadratic expression in the selected coordinates has degree at most $2M$. Since $M+6>2M$, exact autonomous closure on an open interval is impossible. This excludes the stated grammar, not every hidden realization or finite-accuracy approximation.
+The finite forecast suite does not identify a new universal law. Lorentz covariance, dynamical spacetime, Einstein limits, quantum fields, apparatus thermodynamics and human relevance remain separate unmet obligations. Evidence can challenge these claims without modifying their frozen definitions.

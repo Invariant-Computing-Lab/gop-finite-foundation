@@ -1,0 +1,390 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GOP evidence record, baseline schema 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "template_only",
+    "study_id",
+    "evidence_id",
+    "foundation_id",
+    "core_sha256",
+    "primary_program",
+    "source",
+    "evidence_type",
+    "source_claim",
+    "integration_interpretation",
+    "target_claim_ids",
+    "proposed_relation",
+    "assumption_mapping",
+    "scope",
+    "lineage_group",
+    "reproduction_status",
+    "review_status",
+    "requested_effect",
+    "core_change_requested",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "template_only": {
+      "const": false
+    },
+    "study_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "foundation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "core_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "primary_program": {
+      "enum": [
+        "RARI",
+        "OCIL_OCIR",
+        "AFC",
+        "SACRA",
+        "UNASSIGNED"
+      ]
+    },
+    "cross_programs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "RARI",
+          "OCIL_OCIR",
+          "AFC",
+          "SACRA"
+        ]
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256",
+        "locator",
+        "access_level"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "access_level": {
+          "enum": [
+            "abstract_only",
+            "report_only",
+            "full_text",
+            "code_inspected",
+            "raw_data_inspected",
+            "code_and_data_inspected"
+          ]
+        },
+        "bibliographic_record": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "evidence_type": {
+      "enum": [
+        "reported_empirical",
+        "synthetic_experiment",
+        "mathematical_claim",
+        "reproduction",
+        "protocol_only",
+        "qualitative_account",
+        "design_artifact",
+        "conceptual_argument",
+        "context"
+      ]
+    },
+    "source_claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "integration_interpretation": {
+      "type": "string"
+    },
+    "target_claim_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "proposed_relation": {
+      "enum": [
+        "supports",
+        "challenges",
+        "constrains",
+        "extends_scope",
+        "informs_design",
+        "context_only",
+        "unmapped"
+      ]
+    },
+    "assumption_mapping": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_assumption",
+          "core_assumption_id",
+          "compatibility",
+          "reason"
+        ],
+        "properties": {
+          "source_assumption": {
+            "type": "string"
+          },
+          "core_assumption_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "compatibility": {
+            "enum": [
+              "matched",
+              "mismatched",
+              "unknown",
+              "not_applicable"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "system_or_population",
+        "independent_unit",
+        "information_access",
+        "units_and_scales",
+        "intervention_status"
+      ],
+      "properties": {
+        "system_or_population": {
+          "type": "string"
+        },
+        "independent_unit": {
+          "type": "string"
+        },
+        "information_access": {
+          "type": "string"
+        },
+        "units_and_scales": {
+          "type": "string"
+        },
+        "intervention_status": {
+          "enum": [
+            "controlled_intervention",
+            "observational",
+            "mixed",
+            "not_applicable",
+            "unknown"
+          ]
+        },
+        "sample_size": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "time_scale": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "lineage_group": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reproduction_status": {
+      "enum": [
+        "not_attempted",
+        "source_reports_only",
+        "inspection_only",
+        "reproduced_same_artifacts",
+        "fresh_data_internal_replication",
+        "external_replication_reported",
+        "failed_reproduction",
+        "not_applicable"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "reviewed_with_limits",
+        "accepted_in_scope",
+        "disputed",
+        "superseded"
+      ]
+    },
+    "requested_effect": {
+      "enum": [
+        "evidence_only",
+        "adapter_proposal",
+        "core_revision_request",
+        "unmapped"
+      ]
+    },
+    "core_change_requested": {
+      "type": "boolean"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reported_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "value",
+          "unit",
+          "uncertainty",
+          "source_locator"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "number",
+              "string",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "uncertainty": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_locator": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "supersedes_evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "requested_effect": {
+            "const": "core_revision_request"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "core_change_requested": {
+            "const": true
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "proposed_relation": {
+            "enum": [
+              "supports",
+              "challenges",
+              "constrains"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "target_claim_ids": {
+            "minItems": 1
+          },
+          "assumption_mapping": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidence_type": {
+            "const": "protocol_only"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "reproduction_status": {
+            "enum": [
+              "not_attempted",
+              "not_applicable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

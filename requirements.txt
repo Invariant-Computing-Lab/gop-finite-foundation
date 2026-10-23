@@ -1,0 +1,3 @@
+numpy==2.3.5
+scipy==1.17.0
+# Optional manuscript build: pandoc, pdflatex; matplotlib for figures; python-docx for Word.

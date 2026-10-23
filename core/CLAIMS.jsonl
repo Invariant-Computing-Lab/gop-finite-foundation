@@ -1,0 +1,9 @@
+{"id":"U","claim":"One physically constrained law architecture may account for physically realizable processes including embedded observation, representation, communication and action.","status_at_definition":"CONJECTURE_UNESTABLISHED"}
+{"id":"B-ALL","claim":"All confining scalar polynomial flows admit exact autonomous closure under the degree<=4 monomial identity-decoder F2 grammar.","status_at_definition":"AT_RISK_KNOWN_ANALYTIC_WITNESS"}
+{"id":"B-LIFT","claim":"Cubic/quintic dissipative scalar flows have the explicit invariant F2 lifts; this is a conditional embedding, not new physics.","status_at_definition":"DERIVED_CONDITIONAL"}
+{"id":"P-ID","claim":"Accessible reset observations can estimate parameters of declared scalar F2 adapters; no universal identification claim.","status_at_definition":"TO_TEST"}
+{"id":"P-LOOP","claim":"Declared ordered operators execute a delayed two-endpoint closed feedback loop without future observation access.","status_at_definition":"TO_TEST"}
+{"id":"P-Q","claim":"The finite imported GKSL/instrument operators preserve quantum validity in tested scope.","status_at_definition":"TO_TEST_IMPORTED"}
+{"id":"P-BIT","claim":"Declared quadratic bit maps implement ordered gates and retain/loss distinctions as specified.","status_at_definition":"TO_TEST_IMPORTED"}
+{"id":"I-NO","claim":"Observation-equivalent latent/gain descriptions cannot be uniquely identified without extra information.","status_at_definition":"DERIVED_CONDITIONAL"}
+{"id":"LEGACY-GAP","claim":"Historical F0-P forecasts are not predictions of F0-G; old surrogate scores cannot establish F2.","status_at_definition":"SOURCE_REPORTED_CODE_INSPECTED"}

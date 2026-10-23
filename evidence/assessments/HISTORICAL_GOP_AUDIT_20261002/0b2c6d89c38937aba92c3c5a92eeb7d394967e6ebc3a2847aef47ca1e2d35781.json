@@ -1,0 +1,18 @@
+{
+  "study_id": "HISTORICAL_GOP_AUDIT_20261002",
+  "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+  "review_status": "unreviewed",
+  "assessment": "proposed relations preserved; substantive scientific judgment not automated",
+  "records": [
+    {
+      "evidence_id": "HISTORICAL_F0_GENERATOR_PREDICTOR_GAP",
+      "version": 1,
+      "relation": "constrains",
+      "warnings": [
+        "assumption_bridge_unresolved"
+      ]
+    }
+  ],
+  "independent_lineage_count": 1,
+  "evidence_count_is_not_support": true
+}

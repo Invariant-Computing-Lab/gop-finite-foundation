@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "template_only": true,
+  "study_id": "ENTER_ID",
+  "evidence_id": "ENTER_EVIDENCE_ID",
+  "foundation_id": "GOP_TOE_FOUNDATION_v1_0",
+  "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+  "primary_program": "AFC",
+  "source": {
+    "path": "source.pdf",
+    "sha256": "REPLACE_WITH_REAL_SHA256",
+    "locator": "REPLACE",
+    "access_level": "report_only"
+  },
+  "evidence_type": "context",
+  "source_claim": "REPLACE with source-derived claim",
+  "integration_interpretation": "UNMAPPED; review required",
+  "target_claim_ids": [],
+  "proposed_relation": "unmapped",
+  "assumption_mapping": [],
+  "scope": {
+    "system_or_population": "UNKNOWN",
+    "independent_unit": "UNKNOWN",
+    "information_access": "UNKNOWN",
+    "units_and_scales": "UNKNOWN",
+    "intervention_status": "unknown"
+  },
+  "lineage_group": "REPLACE",
+  "reproduction_status": "not_attempted",
+  "review_status": "unreviewed",
+  "requested_effect": "unmapped",
+  "core_change_requested": false,
+  "limitations": []
+}

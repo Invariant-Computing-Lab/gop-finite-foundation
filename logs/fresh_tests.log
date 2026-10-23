@@ -1,0 +1,28 @@
+test_changed_source_version (test_intake.IntakeTests.test_changed_source_version) ... ok
+test_contradiction (test_intake.IntakeTests.test_contradiction) ... ok
+test_duplicate (test_intake.IntakeTests.test_duplicate) ... ok
+test_export_replay (test_intake.IntakeTests.test_export_replay) ... ok
+test_extra_core_file_detected (test_intake.IntakeTests.test_extra_core_file_detected) ... ok
+test_hash_failure (test_intake.IntakeTests.test_hash_failure) ... ok
+test_invalid (test_intake.IntakeTests.test_invalid) ... ok
+test_missing_source (test_intake.IntakeTests.test_missing_source) ... ok
+test_mutation_detected (test_intake.IntakeTests.test_mutation_detected) ... ok
+test_no_core_mutation (test_intake.IntakeTests.test_no_core_mutation) ... ok
+test_no_promotion (test_intake.IntakeTests.test_no_promotion) ... ok
+test_path_escape (test_intake.IntakeTests.test_path_escape) ... ok
+test_request_does_not_execute (test_intake.IntakeTests.test_request_does_not_execute) ... ok
+test_shared_lineage (test_intake.IntakeTests.test_shared_lineage) ... ok
+test_template (test_intake.IntakeTests.test_template) ... ok
+test_unknown_units (test_intake.IntakeTests.test_unknown_units) ... ok
+test_unreviewed (test_intake.IntakeTests.test_unreviewed) ... ok
+test_bits (test_law.LawTests.test_bits) ... ok
+test_domain (test_law.LawTests.test_domain) ... ok
+test_duffing_closure (test_law.LawTests.test_duffing_closure) ... ok
+test_ito_closure (test_law.LawTests.test_ito_closure) ... ok
+test_loop_independent (test_law.LawTests.test_loop_independent) ... ok
+test_scalar_direct (test_law.LawTests.test_scalar_direct) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.164s
+
+OK

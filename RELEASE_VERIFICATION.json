@@ -1,0 +1,26 @@
+{
+  "schema": "invariant.software_release_verification.v1",
+  "runtime_status": "PASS",
+  "scope": "Unchanged frozen finite foundation. FROZEN_LIMITED retained; no universal physical closure claim.",
+  "checked_in": "isolated Linux container; Python 3.13.5 / Node 22.16.0 / Chromium 144 where applicable",
+  "actual_server_tested": false,
+  "actual_windows_tested": false,
+  "hosted_platform_tested": false,
+  "public_release_performed": false,
+  "public_rights_approved": false,
+  "target_codes": [
+    "G35"
+  ],
+  "source_class": "archived_source",
+  "evidence_file_in_delivery_audit": "original_github_final_results.json",
+  "software_only_revision": {
+    "status": "PASS",
+    "checked_utc": "2026-10-21T17:08:06.798551+00:00",
+    "log_sha256": "5f594ca740e94e5d97c346a979c0ef21b5db08f1815ca3c21d33bc4e11ff5f6c",
+    "tests_run": 23,
+    "scientific_core_unchanged": true,
+    "nested_transport_archive_filtered": true,
+    "source_environment": "current Linux dependency environment; not independently provisioned",
+    "scientific_revalidation_or_rights_approval": false
+  }
+}

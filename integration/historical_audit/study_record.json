@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "template_only": false,
+  "study_id": "HISTORICAL_GOP_AUDIT_20261002",
+  "evidence_id": "HISTORICAL_F0_GENERATOR_PREDICTOR_GAP",
+  "foundation_id": "GOP_TOE_FOUNDATION_v1_0",
+  "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+  "primary_program": "OCIL_OCIR",
+  "source": {
+    "path": "audit.md",
+    "sha256": "785a1ba24e21bd41412991f7a861583ac92e773c6b724dbded526ea73436cefc",
+    "locator": "Sections1,4,5,6,7; original archive hash b4114551fc372258d79be474b8bede43d9e2bc01ea5f08a17fa1a5877a2f44d3",
+    "access_level": "full_text"
+  },
+  "evidence_type": "conceptual_argument",
+  "source_claim": "The prior F0-P benchmark and F0-G generator are distinct; no-lift cubic/quintic restrictions failed. The bounded lift is a known proposed next direction.",
+  "integration_interpretation": "Historical methodological constraint for F2 direct-law attribution. This record does not add independent experimental support for F2.",
+  "target_claim_ids": [
+    "LEGACY-GAP",
+    "B-LIFT"
+  ],
+  "proposed_relation": "constrains",
+  "assumption_mapping": [
+    {
+      "source_assumption": "F0-P is a separate observed predictor; F0-G forbids lifts",
+      "core_assumption_id": "A-MONOMIAL",
+      "compatibility": "mismatched",
+      "reason": "F2 allows counted derived monomials, so old no-lift failures remain true but do not transfer as a rejection of every F2 realization."
+    }
+  ],
+  "scope": {
+    "system_or_population": "Historical synthetic GOP results and mathematical restrictions",
+    "independent_unit": "one supplied audit of the same old archive",
+    "information_access": "full audit text and selected source code; not all old benchmark fits rerun",
+    "units_and_scales": "source fixed nondimensional coordinates; not cross-domain aggregation",
+    "intervention_status": "not_applicable",
+    "time_scale": "historical2026-10-02"
+  },
+  "lineage_group": "GOP_TOE_FORMALIZATION_v0_1_ARCHIVE_b4114551",
+  "reproduction_status": "inspection_only",
+  "review_status": "unreviewed",
+  "requested_effect": "evidence_only",
+  "core_change_requested": false,
+  "limitations": [
+    "Historical import demonstrates intake; not fresh evidence or an external replication.",
+    "Reported old numerical results not claimed rerun in the new F2 pipeline."
+  ]
+}

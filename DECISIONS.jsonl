@@ -1,0 +1,4 @@
+{"decision": "No external services or inherited model deserialization; one numerical worker", "phase": "INGEST"}
+{"phase": "FREEZE_SPEC", "decision": "F2a selected without scientific repair; development comparators fixed", "freeze_sha256": "447f69c6f560e74797cc016a06d6a1fc5a9bf5952fc5e10823330c217760af57"}
+{"phase": "AUDIT", "decision": "Output-only physical horizon metadata correction; no core change", "erratum": "history/METADATA_ERRATUM.json"}
+{"phase": "FROZEN", "decision": "FROZEN_LIMITED, not full battery completion; preserve negatives; future work intake only"}

@@ -1,0 +1,75 @@
+{
+  "manifest_kind": "source_bytes_not_validation",
+  "sources": [
+    {
+      "original_name": "GOP_TOE_FORMALIZATION_v0_1_RESULTS(1).zip",
+      "path": "inputs/01_previous_results.zip",
+      "bytes": 15253015,
+      "sha256": "b4114551fc372258d79be474b8bede43d9e2bc01ea5f08a17fa1a5877a2f44d3",
+      "role": "Previous executed research archive; historical evidence and reusable code."
+    },
+    {
+      "original_name": "GOP_TOE_Bagimsiz_Sonuc_Denetimi.zip",
+      "path": "inputs/02_previous_audit.zip",
+      "bytes": 21474,
+      "sha256": "16656ac2d32012c74689e3c61de85889b550f05868115b7afa64ff40c609a014",
+      "role": "Previously produced audit code/logs; historical checks, not new verification this turn."
+    },
+    {
+      "original_name": "ASTRA_GOP_TOE_KOMUT_PAKETI_v1_0.zip",
+      "path": "inputs/03_original_instruction_bundle.zip",
+      "bytes": 146651,
+      "sha256": "6ccbf3f77de1ed0a9a6ee85bf2b30f32bdf7fb1333e287718a2d9da7db182ef1",
+      "role": "Original scope, conceptual paper and references; prior instructions are superseded where finalization differs."
+    },
+    {
+      "original_name": "Generalized_Occupation_Paradigm_Paper_v0_1.pdf",
+      "path": "inputs/04_conceptual_paper.pdf",
+      "bytes": 117813,
+      "sha256": "0a6577d878b15d995dc3b127bc16731e506328879c5565f7e137ca12e51cc3de",
+      "role": "Author-review conceptual draft; no new empirical results."
+    },
+    {
+      "original_name": "GOP_TOE_Sonuc_Denetimi_TR.md",
+      "path": "inputs/05_audit_TR.md",
+      "bytes": 17556,
+      "sha256": "785a1ba24e21bd41412991f7a861583ac92e773c6b724dbded526ea73436cefc",
+      "role": "Audit findings and proposed next directions."
+    },
+    {
+      "original_name": "GOP_TOE_Empirical_Track_Scope.md",
+      "path": "inputs/06_empirical_track_scope.md",
+      "bytes": 6853,
+      "sha256": "7f78efeb2bb4429b9805444a84c60bad42f06d6872ae1e5f212f0aab2c507329",
+      "role": "Source admission that F0-P and F0-G are different objects."
+    },
+    {
+      "original_name": "GOP_TOE_F0_F1_Revision_Study.md",
+      "path": "inputs/07_F0_F1_revision_study.md",
+      "bytes": 2913,
+      "sha256": "6b5f77f79540832d5e8aad399f880c5e4bd120fb71a82d87cf401b940e580356",
+      "role": "Restricted no-lift counterexamples; retain original scope."
+    },
+    {
+      "original_name": "GOP_TOE_Physics_Recovery_Matrix.csv",
+      "path": "inputs/08_physics_obligations.csv",
+      "bytes": 4328,
+      "sha256": "f90e86701187d81dfa1a64da10b2330827790852a5d03506252c37598a8b2ba3",
+      "role": "Physical obligations and import/derivation boundaries."
+    },
+    {
+      "original_name": "GOP_TOE_Astra_Result_Paper.pdf",
+      "path": "inputs/09_previous_result_paper.pdf",
+      "bytes": 449681,
+      "sha256": "37d6c87c69f9ba06ef792d1838ca27c27a02c6708f26ae122f0ad578ec5efb26",
+      "role": "Previous result paper; do not transfer its forecast results to F2."
+    },
+    {
+      "original_name": "GOP_TOE_Astra_Mathematical_Supplement.pdf",
+      "path": "inputs/10_previous_math_supplement.pdf",
+      "bytes": 306471,
+      "sha256": "16b1f6b6ea75fbf1929b1c046ee55ed3c55b10fe99c74c3c70d6e7b7c4160498",
+      "role": "Previous formal construction and conditional results."
+    }
+  ]
+}

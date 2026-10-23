@@ -1,0 +1,506 @@
+[
+  {
+    "family": "cubic",
+    "model": "F0_P_legacy",
+    "horizon": 1,
+    "mse": 7.824190620250492e-06,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "F0_P_legacy",
+    "horizon": 16,
+    "mse": 0.000601416496427598,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "F0_P_legacy",
+    "horizon": 64,
+    "mse": 0.0012594964800677927,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "F2",
+    "horizon": 1,
+    "mse": 1.6777415781316147e-09,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "F2",
+    "horizon": 16,
+    "mse": 5.45116695441505e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "F2",
+    "horizon": 64,
+    "mse": 2.7492050510135626e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "linear_drift",
+    "horizon": 1,
+    "mse": 8.527559793912491e-06,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "linear_drift",
+    "horizon": 16,
+    "mse": 0.0005666425618028915,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "linear_drift",
+    "horizon": 64,
+    "mse": 0.0011693676733397747,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "no_lift_quadratic",
+    "horizon": 1,
+    "mse": 7.560768783878003e-06,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "no_lift_quadratic",
+    "horizon": 16,
+    "mse": 0.0005854064332364005,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "no_lift_quadratic",
+    "horizon": 64,
+    "mse": 0.0012390803358601774,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "persistence",
+    "horizon": 1,
+    "mse": 0.00017044530972065675,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "persistence",
+    "horizon": 16,
+    "mse": 0.020827202895518572,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "persistence",
+    "horizon": 64,
+    "mse": 0.0926473578250136,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "sparse_degree7",
+    "horizon": 1,
+    "mse": 2.874084274426039e-09,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "sparse_degree7",
+    "horizon": 16,
+    "mse": 6.453002564070853e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "sparse_degree7",
+    "horizon": 64,
+    "mse": 4.4925799753910655e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "training_mean",
+    "horizon": 1,
+    "mse": 0.137609295984102,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "training_mean",
+    "horizon": 16,
+    "mse": 0.058769000908998656,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "cubic",
+    "model": "training_mean",
+    "horizon": 64,
+    "mse": 0.007066727563740645,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "F0_P_legacy",
+    "horizon": 1,
+    "mse": 2.9865194618373147e-05,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "F0_P_legacy",
+    "horizon": 16,
+    "mse": 0.0009539755943748572,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "F0_P_legacy",
+    "horizon": 64,
+    "mse": 0.001991454551023019,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "F2",
+    "horizon": 1,
+    "mse": 4.3428521345482434e-09,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "F2",
+    "horizon": 16,
+    "mse": 5.80782752495496e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "F2",
+    "horizon": 64,
+    "mse": 3.3643198893751786e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "linear_drift",
+    "horizon": 1,
+    "mse": 2.925763005488136e-05,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "linear_drift",
+    "horizon": 16,
+    "mse": 0.0010539900160690193,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "linear_drift",
+    "horizon": 64,
+    "mse": 0.0023396584508667342,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "no_lift_quadratic",
+    "horizon": 1,
+    "mse": 3.114281899971368e-05,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "no_lift_quadratic",
+    "horizon": 16,
+    "mse": 0.0009867697514041327,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "no_lift_quadratic",
+    "horizon": 64,
+    "mse": 0.0021336014338424556,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "persistence",
+    "horizon": 1,
+    "mse": 0.00019596127904266663,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "persistence",
+    "horizon": 16,
+    "mse": 0.01992505453915336,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "persistence",
+    "horizon": 64,
+    "mse": 0.10347049616407626,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "sparse_degree7",
+    "horizon": 1,
+    "mse": 5.6650278872348516e-09,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "sparse_degree7",
+    "horizon": 16,
+    "mse": 6.889150203474684e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "sparse_degree7",
+    "horizon": 64,
+    "mse": 8.652484868824255e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "training_mean",
+    "horizon": 1,
+    "mse": 0.150960462720759,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "training_mean",
+    "horizon": 16,
+    "mse": 0.07045669277188943,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "quintic",
+    "model": "training_mean",
+    "horizon": 64,
+    "mse": 0.009837662645056793,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "F0_P_legacy",
+    "horizon": 1,
+    "mse": 1.1938352285643743e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "F0_P_legacy",
+    "horizon": 16,
+    "mse": 3.778829815810289e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "F0_P_legacy",
+    "horizon": 64,
+    "mse": 2.4848482226397663e-07,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "F2",
+    "horizon": 1,
+    "mse": 1.5362347603189805e-10,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "F2",
+    "horizon": 16,
+    "mse": 3.2794549468353086e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "F2",
+    "horizon": 64,
+    "mse": 2.899619777086067e-07,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "linear_drift",
+    "horizon": 1,
+    "mse": 6.142991543646292e-06,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "linear_drift",
+    "horizon": 16,
+    "mse": 0.0017398652529712678,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "linear_drift",
+    "horizon": 64,
+    "mse": 0.03769631451011061,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "no_lift_quadratic",
+    "horizon": 1,
+    "mse": 1.793035647000878e-10,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "no_lift_quadratic",
+    "horizon": 16,
+    "mse": 3.815231970925448e-08,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "no_lift_quadratic",
+    "horizon": 64,
+    "mse": 3.3332895802864386e-07,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "persistence",
+    "horizon": 1,
+    "mse": 1.0759179503947388e-05,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "persistence",
+    "horizon": 16,
+    "mse": 0.002754289510470644,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "persistence",
+    "horizon": 64,
+    "mse": 0.04296277622240019,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "sparse_degree7",
+    "horizon": 1,
+    "mse": 1.2301735217196704e-07,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "sparse_degree7",
+    "horizon": 16,
+    "mse": 4.752469037751741e-05,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "sparse_degree7",
+    "horizon": 64,
+    "mse": 56250000000.00074,
+    "divergences": 9,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "training_mean",
+    "horizon": 1,
+    "mse": 0.11451692932342404,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "training_mean",
+    "horizon": 16,
+    "mse": 0.12146920990282992,
+    "divergences": 0,
+    "valid_count": 160
+  },
+  {
+    "family": "logistic",
+    "model": "training_mean",
+    "horizon": 64,
+    "mse": 0.1593383850008919,
+    "divergences": 0,
+    "valid_count": 160
+  }
+]

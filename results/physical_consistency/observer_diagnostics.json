@@ -1,0 +1,6 @@
+{
+  "calibrated_state_max_difference": 0.0,
+  "two_endpoint_initial_separation": 0.8999999999999999,
+  "constant_representation_initial_separation": 0.0,
+  "interpretation": "known gain transfer preserves the existing distinction; constant representation loses it; neither estimates unknown calibration"
+}

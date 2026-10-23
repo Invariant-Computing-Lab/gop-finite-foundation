@@ -1,0 +1,69 @@
+{
+  "scope": "software-only copy; original archives remain unchanged outside release kit",
+  "scientific_code_changed": false,
+  "historical_manifests": "original provenance, not a verification of filtered transport containers",
+  "changes": [
+    {
+      "container": "gop-finite-foundation/history/original_inputs/01_previous_results.zip",
+      "original_sha256": "b4114551fc372258d79be474b8bede43d9e2bc01ea5f08a17fa1a5877a2f44d3",
+      "software_only_sha256": "3739ce0ffd5aa97de7571c9b17ba671206feef2c327b54ea681b839ab53535fe",
+      "excluded": [
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/manuscript/paper.md",
+          "sha256": "a247284dd3a156d629dfc98c17626b3ce1d91604168eb8730ed68d9a615d2b9f"
+        },
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/manuscript/paper.pdf",
+          "sha256": "37d6c87c69f9ba06ef792d1838ca27c27a02c6708f26ae122f0ad578ec5efb26"
+        },
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/manuscript/paper.tex",
+          "sha256": "a41933fc042c735a36c8b77d1561f63f1259859e0582eea88deff8b3fd71c915"
+        },
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/manuscript/references.bib",
+          "sha256": "6b52c953899017256ffb28b10f38ddf24c3d5d95a69c4b71a6102120926e5dd0"
+        },
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/manuscript/report_header.tex",
+          "sha256": "9363f7f5fc590045c9d902e0ad3d63034663a73e529a3b5e94de0a3da7445ef5"
+        },
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/manuscript/supplement.pdf",
+          "sha256": "16b1f6b6ea75fbf1929b1c046ee55ed3c55b10fe99c74c3c70d6e7b7c4160498"
+        },
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/manuscript/supplement.tex",
+          "sha256": "2d06c0c5e184eb7b1853d6478cc2c61ac6c1c031e7d8dd2fffaddc63f445def2"
+        },
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/sources/Generalized_Occupation_Paradigm_Paper_v0_1.pdf",
+          "sha256": "0a6577d878b15d995dc3b127bc16731e506328879c5565f7e137ca12e51cc3de"
+        },
+        {
+          "path": "GOP_TOE_FORMALIZATION_v0_1/sources/source_paper.txt",
+          "sha256": "9608392d99252e7dcc757b08a2a28ca1065a79740cae1524b8c6bb3c20df31bb"
+        }
+      ],
+      "changed_nested_containers": [],
+      "protected_core_members_unchanged": 0
+    },
+    {
+      "container": "gop-finite-foundation/history/original_inputs/03_original_instruction_bundle.zip",
+      "original_sha256": "6ccbf3f77de1ed0a9a6ee85bf2b30f32bdf7fb1333e287718a2d9da7db182ef1",
+      "software_only_sha256": "9e1da0a8baa9282681456729d7ba0939358faaf904c7efbfecd81db7930e9b84",
+      "excluded": [
+        {
+          "path": "sources/Generalized_Occupation_Paradigm_Paper_v0_1.docx",
+          "sha256": "adb66d023260115d0265e0a39b5e45c8b4375e2d909f50825d88aa111d651185"
+        },
+        {
+          "path": "sources/Generalized_Occupation_Paradigm_Paper_v0_1.pdf",
+          "sha256": "0a6577d878b15d995dc3b127bc16731e506328879c5565f7e137ca12e51cc3de"
+        }
+      ],
+      "changed_nested_containers": [],
+      "protected_core_members_unchanged": 0
+    }
+  ]
+}

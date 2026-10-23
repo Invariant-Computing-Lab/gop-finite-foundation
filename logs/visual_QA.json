@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-02T09:15:11.107493+00:00",
+  "PDFs": {
+    "paper": 5,
+    "supplement": 5,
+    "equation_card": 1
+  },
+  "DOCX_pages": 5,
+  "all_pages_visually_inspected": true,
+  "missing_math_escape_corrected_before_delivery": true,
+  "no_clipping_or_missing_equation_glyphs_seen": true,
+  "render_intermediates_not_delivered": true
+}

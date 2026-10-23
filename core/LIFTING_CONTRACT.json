@@ -1,0 +1,14 @@
+{
+ "foundation_id":"GOP_TOE_FOUNDATION_v1_0","release_version":"1.0.0","candidate_id":"F2a","development_repairs":0,
+ "classical":"dz_i=P_i(z,u)dt+sum_a Q_ia(z)dW_a; P,Q explicit real polynomials degree<=2; coefficient magnitude<=1000 in declared units; one local block and neighbours only",
+ "physical_block_dimension_max":8,"added_coordinates":"at most min(2d,16)","lift_grammar":"derived monomials in local physical coordinates of total degree2..4; identity decoder; exact Ito closure required; no arbitrary encodings or added latent physical states under this grammar",
+ "buffer":"FIFO length1..4 per directed link; at most2 directed links in executed loop; separate counted memory",
+ "causal_order":"measure/backaction; each endpoint internal update from own sensor and OLD incoming buffer; actions+encoding; FIFO; continuous/quantum evolution",
+ "observations":"known or explicitly unknown affine H with Gaussian noise and observed mask; noninjective channels do not claim inversion; calibrated evaluation scalar sensors noiseless",
+ "quantum":"GKSL imported; Hamiltonian one/two-site Pauli terms with degree<=2 classical coefficients; jump library Pauli strings plus single-site lowering and raising, at most2 qubits; fixed nonnegative rates; Pauli unsharp instruments",
+ "discrete":"explicit quadratic polynomial maps preserving declared finite bit domain; sequential elementary gates count separately; no switch on benchmark names inside candidate engine",
+ "existence":"local Lipschitz up to explosion; each adapter needs regime-specific bound. Selected dissipative scalar manifolds and bounded-input confining Duffing globally exist; off-manifold no global guarantee; no hidden projection",
+ "units":"nondimensional fixed reference scales unless stated; drift coefficient z_i/(time product(input units)); diffusion z_i/(sqrt(time) product(state units)); derived monomial units multiply; hbar=1",
+ "new_physical_constants_derived":[],"universal_claim_status":"CONJECTURE_UNESTABLISHED",
+ "stronger_bounded_claim":"exact autonomous monomial-quadratic closure for all confining scalar polynomial flows under degree4 lift grammar; explicitly tested for counterexample, not assumed true"
+}

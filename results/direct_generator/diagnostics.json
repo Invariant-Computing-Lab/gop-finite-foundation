@@ -1,0 +1,14 @@
+{
+  "parameter_mean_absolute_error_a_b": [
+    0.0010916126443950961,
+    0.006430500093585092
+  ],
+  "parameter_max_absolute_error_a_b": [
+    0.004258973606174665,
+    0.015770069670588915
+  ],
+  "final_F2_max_manifold_residual": 6.235430748124937e-11,
+  "F2_final_divergences": 0,
+  "final_scalar_worlds": 48,
+  "final_scalar_realizations": 96
+}

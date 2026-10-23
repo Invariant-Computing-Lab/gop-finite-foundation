@@ -1,0 +1,65 @@
+{
+  "foundation_id": "GOP_TOE_FOUNDATION_v1_0",
+  "version": "1.0.0",
+  "candidate_id": "F2a",
+  "release_status": "FROZEN_LIMITED",
+  "universal_claim_status": "CONJECTURE_UNESTABLISHED",
+  "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+  "scientific_statuses": {
+    "U": "CONJECTURE_UNESTABLISHED",
+    "B-ALL": "BOUNDED_INSTANCE_CONTRADICTED",
+    "B-LIFT": "DERIVED_CONDITIONAL_AND_TESTED_IN_SCOPE",
+    "P-ID": "BOUNDED_KNOWN_STRUCTURES_ESTIMATED; comparative_margin_INCONCLUSIVE",
+    "P-LOOP": "TESTED_IN_SCOPE_OPEN_APPARATUS",
+    "P-Q": "IMPORTED_CONSISTENCY",
+    "P-BIT": "TESTED_IN_SCOPE_IMPORTED_LOGIC",
+    "I-NO": "DERIVED_CONDITIONAL_AND_NUMERIC_GAUGE_CHECK",
+    "stochastic_lift_numerical_tolerance": "NOT_MET at frozen EM resolution; exact Ito identity remains valid"
+  },
+  "unexecuted_coverage": [
+    "A unknown sensor gain is an observational-equivalence negative control; no unknown-gain estimator",
+    "C central inverse-square trajectories not run",
+    "D endpoint identity is operational label continuity; transmission fidelity not an independent communication code benchmark",
+    "B quintic stochastic lift not run; cubic EM manifold residual exceeds1e-5",
+    "No S05 resource saturation/S07 tanh dynamics",
+    "No learned quantum channel comparator; analytic physical comparator only"
+  ],
+  "gates": {
+    "G1": "PASS source hashes and map",
+    "G2": "PASS explicit finite candidate with counterexample",
+    "G3": "PASS with output-only physical horizon metadata erratum",
+    "G4": "USABLE_CORE_EXECUTED; non-core sectors explicitly incomplete",
+    "G5": "PASS internal freeze,world splits,masks,all scalar baselines; no external blinding",
+    "G6": "PASS all prior physics obligations retained",
+    "G7": "PASS fresh extraction:23 tests,4536 score rows,260 trace records,direct law replay,652 artifact hashes and historical add-on replay",
+    "G8": "PASS23 tests including intake and direct law; historical duplicate/addon demonstration",
+    "G9": "PASS rendered5-page paper,5-page supplement,1-page equation card,5-page Word copy; package manifests"
+  },
+  "publish_status": "NOT_PUBLISHED_AUTHOR_REVIEW_REQUIRED",
+  "technical_blocked": false,
+  "full_requested_battery_complete": false,
+  "candidate_repairs": 0,
+  "post_final_scientific_changes": 0,
+  "metadata_erratum": "history/METADATA_ERRATUM.json",
+  "same_environment_only": true,
+  "stop_rule": "Terminal frozen release; future work through intake, not automatic F3",
+  "closed_at": "2026-10-02T09:17:28.160756+00:00",
+  "reproducibility": {
+    "metric_rows": 4536,
+    "max_score_difference": 0.0,
+    "trace_records": 260,
+    "direct_replay_max_error": 0.0,
+    "intake": {
+      "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+      "unchanged_core": true,
+      "records_verified": 1,
+      "scientific_validation": false
+    },
+    "independent_external_replication": false,
+    "scope": "same environment fresh directory / arithmetic and deterministic replay",
+    "checked_artifact_hashes": 652,
+    "tests_passed": 23,
+    "fresh_extraction": true,
+    "addon_replay_clean_core": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "derived_output_metadata_only",
+  "time": "2026-10-02T09:08:45.414034+00:00",
+  "defect": "physical save helper attached the generic battery list [1,16,64,128] to every artifact, including controls with different endpoint/time meanings",
+  "affected": "results/physical_consistency/trace.jsonl horizon fields only",
+  "original_sha256": "87b86690fece67951b08c8d561b730bfc1a5b98f286a209cf095f6699deff2a2",
+  "corrected_sha256": "3119bd4fcc2e71c220f69aa3e7452c4be047a606491ea290a104a0361a6b76a2",
+  "repair": "typed actual horizon/index metadata reconstructed from frozen TEST_PLAN and array-producing loops; original kept; no numerical rerun or scientific repair",
+  "core_unchanged": true,
+  "replay_note": "src.physical reproduces numerical arrays and generic horizon metadata; this output-only erratum documents the authoritative corrected trace for the archived release. New analyses must retain explicit index semantics."
+}

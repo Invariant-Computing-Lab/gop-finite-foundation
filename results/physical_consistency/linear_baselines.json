@@ -1,0 +1,1346 @@
+[
+  {
+    "file": "physical_linear_0_0.npz",
+    "model": "F2",
+    "mse": 0.02060023008902715,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_0.npz",
+    "model": "persistence",
+    "mse": 0.045090252494834074,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_0.npz",
+    "model": "training_mean",
+    "mse": 0.029493646362466607,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_0.npz",
+    "model": "linear",
+    "mse": 0.13150921469706173,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 687500000000.1504,
+    "valid_count": 16,
+    "divergences": 11
+  },
+  {
+    "file": "physical_linear_0_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.020600230089027144,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_1.npz",
+    "model": "F2",
+    "mse": 0.01720254143136932,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_1.npz",
+    "model": "persistence",
+    "mse": 0.03630152113811638,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_1.npz",
+    "model": "training_mean",
+    "mse": 0.4022780346594608,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_1.npz",
+    "model": "linear",
+    "mse": 0.02359887919852776,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_0_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 687500000000.0225,
+    "valid_count": 16,
+    "divergences": 11
+  },
+  {
+    "file": "physical_linear_0_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.017202541431369324,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_0.npz",
+    "model": "F2",
+    "mse": 0.09313196931343343,
+    "valid_count": 5,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_0.npz",
+    "model": "persistence",
+    "mse": 0.08418196271318004,
+    "valid_count": 5,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_0.npz",
+    "model": "training_mean",
+    "mse": 0.07129646387803983,
+    "valid_count": 5,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_0.npz",
+    "model": "linear",
+    "mse": 0.10484241449992686,
+    "valid_count": 5,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 0.10319556792457782,
+    "valid_count": 5,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.09313196931343345,
+    "valid_count": 5,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_1.npz",
+    "model": "F2",
+    "mse": 0.009782288412964617,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_1.npz",
+    "model": "persistence",
+    "mse": 0.022431623234760403,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_1.npz",
+    "model": "training_mean",
+    "mse": 0.05931392735176639,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_1.npz",
+    "model": "linear",
+    "mse": 0.056185089444538476,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_10_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 500000000000.0276,
+    "valid_count": 8,
+    "divergences": 4
+  },
+  {
+    "file": "physical_linear_10_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.00978228841296458,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_0.npz",
+    "model": "F2",
+    "mse": 0.010832251025469095,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_0.npz",
+    "model": "persistence",
+    "mse": 0.012906672811850947,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_0.npz",
+    "model": "training_mean",
+    "mse": 0.035243463069487106,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_0.npz",
+    "model": "linear",
+    "mse": 0.06575794111704321,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 666666666668.2748,
+    "valid_count": 15,
+    "divergences": 10
+  },
+  {
+    "file": "physical_linear_11_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.010832251025469097,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_1.npz",
+    "model": "F2",
+    "mse": 0.006670740096865773,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_1.npz",
+    "model": "persistence",
+    "mse": 0.013253523599148324,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_1.npz",
+    "model": "training_mean",
+    "mse": 0.13523671235933749,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_1.npz",
+    "model": "linear",
+    "mse": 856.3005243045068,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_11_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 625000000000.0125,
+    "valid_count": 16,
+    "divergences": 10
+  },
+  {
+    "file": "physical_linear_11_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.006670740096865784,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_0.npz",
+    "model": "F2",
+    "mse": 0.03901163404647914,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_0.npz",
+    "model": "persistence",
+    "mse": 0.12107779494067608,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_0.npz",
+    "model": "training_mean",
+    "mse": 0.43425790391435243,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_0.npz",
+    "model": "linear",
+    "mse": 0.22528156582331318,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 533333333351.2509,
+    "valid_count": 15,
+    "divergences": 8
+  },
+  {
+    "file": "physical_linear_12_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.03901163404647911,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_1.npz",
+    "model": "F2",
+    "mse": 0.018348953340425585,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_1.npz",
+    "model": "persistence",
+    "mse": 0.037261277936796455,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_1.npz",
+    "model": "training_mean",
+    "mse": 0.13968705116848573,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_1.npz",
+    "model": "linear",
+    "mse": 0.04186388885600701,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_12_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 214285714285.77368,
+    "valid_count": 14,
+    "divergences": 3
+  },
+  {
+    "file": "physical_linear_12_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.01834895334042557,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_0.npz",
+    "model": "F2",
+    "mse": 0.0327523495098596,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_0.npz",
+    "model": "persistence",
+    "mse": 0.017926339039360903,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_0.npz",
+    "model": "training_mean",
+    "mse": 0.029638447915371093,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_0.npz",
+    "model": "linear",
+    "mse": 52.22833663593068,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 692307692307.6975,
+    "valid_count": 13,
+    "divergences": 9
+  },
+  {
+    "file": "physical_linear_13_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.032752349509859606,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_1.npz",
+    "model": "F2",
+    "mse": 0.04664512921166076,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_1.npz",
+    "model": "persistence",
+    "mse": 0.05340827880661142,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_1.npz",
+    "model": "training_mean",
+    "mse": 0.26844700706096936,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_1.npz",
+    "model": "linear",
+    "mse": 0.27109929991977205,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_13_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 642857142857.1825,
+    "valid_count": 14,
+    "divergences": 9
+  },
+  {
+    "file": "physical_linear_13_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.046645129211660745,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_0.npz",
+    "model": "F2",
+    "mse": 0.008006888509934581,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_0.npz",
+    "model": "persistence",
+    "mse": 0.030777214082538914,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_0.npz",
+    "model": "training_mean",
+    "mse": 0.13489071535698766,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_0.npz",
+    "model": "linear",
+    "mse": 794.7125354436683,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 0.16704531440158368,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.008006888509934577,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_1.npz",
+    "model": "F2",
+    "mse": 0.006506083249120959,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_1.npz",
+    "model": "persistence",
+    "mse": 0.01575719685207046,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_1.npz",
+    "model": "training_mean",
+    "mse": 0.00413105430385845,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_1.npz",
+    "model": "linear",
+    "mse": 94.74132682227741,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_14_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 250000000000.07004,
+    "valid_count": 8,
+    "divergences": 2
+  },
+  {
+    "file": "physical_linear_14_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.006506083249120956,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_0.npz",
+    "model": "F2",
+    "mse": 0.020173004682029164,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_0.npz",
+    "model": "persistence",
+    "mse": 0.02671080013209663,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_0.npz",
+    "model": "training_mean",
+    "mse": 0.06383722296969999,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_0.npz",
+    "model": "linear",
+    "mse": 333333384792.3764,
+    "valid_count": 15,
+    "divergences": 5
+  },
+  {
+    "file": "physical_linear_15_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 666666666666.7532,
+    "valid_count": 15,
+    "divergences": 10
+  },
+  {
+    "file": "physical_linear_15_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.020173004682029188,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_1.npz",
+    "model": "F2",
+    "mse": 0.012055700765159586,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_1.npz",
+    "model": "persistence",
+    "mse": 0.022691246242520783,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_1.npz",
+    "model": "training_mean",
+    "mse": 0.08556643155940138,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_1.npz",
+    "model": "linear",
+    "mse": 0.05567407941341424,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_15_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 615384615385.1548,
+    "valid_count": 13,
+    "divergences": 8
+  },
+  {
+    "file": "physical_linear_15_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.012055700765159594,
+    "valid_count": 13,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_0.npz",
+    "model": "F2",
+    "mse": 0.036813110474975555,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_0.npz",
+    "model": "persistence",
+    "mse": 0.06740139766750351,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_0.npz",
+    "model": "training_mean",
+    "mse": 0.04216511202653545,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_0.npz",
+    "model": "linear",
+    "mse": 0.09003297015835339,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 0.0881600010356679,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.03681311047497555,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_1.npz",
+    "model": "F2",
+    "mse": 0.07168610511579253,
+    "valid_count": 18,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_1.npz",
+    "model": "persistence",
+    "mse": 0.32147456462831525,
+    "valid_count": 18,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_1.npz",
+    "model": "training_mean",
+    "mse": 0.7612826656049998,
+    "valid_count": 18,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_1.npz",
+    "model": "linear",
+    "mse": 0.752994353362231,
+    "valid_count": 18,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_1_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 555555555556.7714,
+    "valid_count": 18,
+    "divergences": 10
+  },
+  {
+    "file": "physical_linear_1_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.07168610511579249,
+    "valid_count": 18,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_0.npz",
+    "model": "F2",
+    "mse": 0.030638106647875467,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_0.npz",
+    "model": "persistence",
+    "mse": 0.02991918383027036,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_0.npz",
+    "model": "training_mean",
+    "mse": 0.07615270027303037,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_0.npz",
+    "model": "linear",
+    "mse": 0.040375019218580055,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 0.040034549984893614,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.03063810664787548,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_1.npz",
+    "model": "F2",
+    "mse": 0.016499729961315806,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_1.npz",
+    "model": "persistence",
+    "mse": 0.03167256640794053,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_1.npz",
+    "model": "training_mean",
+    "mse": 0.012186404209314432,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_1.npz",
+    "model": "linear",
+    "mse": 0.01895883771961867,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 0.0439717421711495,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_2_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.0164997299613158,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_0.npz",
+    "model": "F2",
+    "mse": 0.017868397010005355,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_0.npz",
+    "model": "persistence",
+    "mse": 0.04356876364016551,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_0.npz",
+    "model": "training_mean",
+    "mse": 0.08669163731955162,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_0.npz",
+    "model": "linear",
+    "mse": 0.03717710755495041,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 200000000000.16043,
+    "valid_count": 15,
+    "divergences": 3
+  },
+  {
+    "file": "physical_linear_3_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.01786839701000535,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_1.npz",
+    "model": "F2",
+    "mse": 0.02146830422681299,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_1.npz",
+    "model": "persistence",
+    "mse": 0.033758033589455436,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_1.npz",
+    "model": "training_mean",
+    "mse": 0.19617445637304026,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_1.npz",
+    "model": "linear",
+    "mse": 0.10963262588875296,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 0.06266308785331554,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_3_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.021468304226812986,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_0.npz",
+    "model": "F2",
+    "mse": 0.031250976969482425,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_0.npz",
+    "model": "persistence",
+    "mse": 0.03384268837474031,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_0.npz",
+    "model": "training_mean",
+    "mse": 0.02184946880290364,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_0.npz",
+    "model": "linear",
+    "mse": 0.018916759039923976,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 235294117647.07407,
+    "valid_count": 17,
+    "divergences": 4
+  },
+  {
+    "file": "physical_linear_4_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.031250976969482445,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_1.npz",
+    "model": "F2",
+    "mse": 0.03457485848510639,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_1.npz",
+    "model": "persistence",
+    "mse": 0.08636805044428594,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_1.npz",
+    "model": "training_mean",
+    "mse": 0.11740123430054919,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_1.npz",
+    "model": "linear",
+    "mse": 4.248774461507576,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_4_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 428571428571.49274,
+    "valid_count": 14,
+    "divergences": 6
+  },
+  {
+    "file": "physical_linear_4_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.03457485848510642,
+    "valid_count": 14,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_0.npz",
+    "model": "F2",
+    "mse": 0.01423205341229641,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_0.npz",
+    "model": "persistence",
+    "mse": 0.024531325534034136,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_0.npz",
+    "model": "training_mean",
+    "mse": 0.01906785229553005,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_0.npz",
+    "model": "linear",
+    "mse": 0.020697214403309697,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 266666666666.70016,
+    "valid_count": 15,
+    "divergences": 4
+  },
+  {
+    "file": "physical_linear_5_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.014232053412296419,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_1.npz",
+    "model": "F2",
+    "mse": 0.040601371600943195,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_1.npz",
+    "model": "persistence",
+    "mse": 0.05429287551267959,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_1.npz",
+    "model": "training_mean",
+    "mse": 0.06281594898467374,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_1.npz",
+    "model": "linear",
+    "mse": 0.05651101578434147,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_5_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 176470588235.36502,
+    "valid_count": 17,
+    "divergences": 3
+  },
+  {
+    "file": "physical_linear_5_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.040601371600943174,
+    "valid_count": 17,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_0.npz",
+    "model": "F2",
+    "mse": 0.016440008521664752,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_0.npz",
+    "model": "persistence",
+    "mse": 0.029294021443424287,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_0.npz",
+    "model": "training_mean",
+    "mse": 0.09626722238605731,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_0.npz",
+    "model": "linear",
+    "mse": 0.03490761471658596,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 0.05251431600342579,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.01644000852166475,
+    "valid_count": 8,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_1.npz",
+    "model": "F2",
+    "mse": 0.01379591522401115,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_1.npz",
+    "model": "persistence",
+    "mse": 0.02084547195421385,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_1.npz",
+    "model": "training_mean",
+    "mse": 0.06625039179069139,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_1.npz",
+    "model": "linear",
+    "mse": 0.029539178965050532,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 0.11220843145017748,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_6_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.013795915224011154,
+    "valid_count": 9,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_0.npz",
+    "model": "F2",
+    "mse": 0.006429784057657121,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_0.npz",
+    "model": "persistence",
+    "mse": 0.005260999039324213,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_0.npz",
+    "model": "training_mean",
+    "mse": 0.009788771372734185,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_0.npz",
+    "model": "linear",
+    "mse": 0.007140278662325494,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 266666666666.67776,
+    "valid_count": 15,
+    "divergences": 4
+  },
+  {
+    "file": "physical_linear_7_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.006429784057657122,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_1.npz",
+    "model": "F2",
+    "mse": 0.01646438082213361,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_1.npz",
+    "model": "persistence",
+    "mse": 0.05901626683056756,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_1.npz",
+    "model": "training_mean",
+    "mse": 0.10594527972135184,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_1.npz",
+    "model": "linear",
+    "mse": 0.06960965511112378,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_7_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 666666666667.1241,
+    "valid_count": 15,
+    "divergences": 10
+  },
+  {
+    "file": "physical_linear_7_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.016464380822133563,
+    "valid_count": 15,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_0.npz",
+    "model": "F2",
+    "mse": 0.006394542276483804,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_0.npz",
+    "model": "persistence",
+    "mse": 0.020046651343373405,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_0.npz",
+    "model": "training_mean",
+    "mse": 0.027656888008246686,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_0.npz",
+    "model": "linear",
+    "mse": 1.0478570703063956,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 500000000235.48914,
+    "valid_count": 16,
+    "divergences": 8
+  },
+  {
+    "file": "physical_linear_8_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.006394542276483764,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_1.npz",
+    "model": "F2",
+    "mse": 0.02177279208498223,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_1.npz",
+    "model": "persistence",
+    "mse": 0.061105846755405806,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_1.npz",
+    "model": "training_mean",
+    "mse": 0.19623961557688052,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_1.npz",
+    "model": "linear",
+    "mse": 0.15708367494223288,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_8_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 750000000000.9951,
+    "valid_count": 16,
+    "divergences": 12
+  },
+  {
+    "file": "physical_linear_8_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.021772792084982166,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_0.npz",
+    "model": "F2",
+    "mse": 0.05972670179303609,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_0.npz",
+    "model": "persistence",
+    "mse": 0.07603047664258844,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_0.npz",
+    "model": "training_mean",
+    "mse": 0.34475120532248893,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_0.npz",
+    "model": "linear",
+    "mse": 0.13418319089718875,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_0.npz",
+    "model": "F0_P_legacy",
+    "mse": 687500000000.0056,
+    "valid_count": 16,
+    "divergences": 11
+  },
+  {
+    "file": "physical_linear_9_0.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.05972670179303613,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_1.npz",
+    "model": "F2",
+    "mse": 0.005338519446788715,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_1.npz",
+    "model": "persistence",
+    "mse": 0.016693012377373976,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_1.npz",
+    "model": "training_mean",
+    "mse": 0.037086555862735585,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_1.npz",
+    "model": "linear",
+    "mse": 245.85626560143953,
+    "valid_count": 16,
+    "divergences": 0
+  },
+  {
+    "file": "physical_linear_9_1.npz",
+    "model": "F0_P_legacy",
+    "mse": 625000000000.0635,
+    "valid_count": 16,
+    "divergences": 10
+  },
+  {
+    "file": "physical_linear_9_1.npz",
+    "model": "analytic_Kalman",
+    "mse": 0.005338519446788726,
+    "valid_count": 16,
+    "divergences": 0
+  }
+]

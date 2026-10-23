@@ -1,0 +1,30 @@
+{
+  "legacy_families": {
+    "S01": "A: restricted continuous analogue, not full old discrete family replay",
+    "S02": "B/C: Duffing direct oracle and scalar lifted identification",
+    "S03": "C: harmonic/dissipative; central-force trajectories NOT_RUN",
+    "S04": "A plus Ito lift; detailed-balance thermodynamics retained obligation NOT_RUN",
+    "S05": "NOT_MAPPED: clipped resource/saturating harvest not in polynomial continuous grammar; no direct run",
+    "S06": "D: explicitly augmented delayed loop, different reference than old S06",
+    "S07": "NOT_MAPPED: tanh coupling not declared; common-input control in D does not cover S07",
+    "S08": "direct local synchronous linear lattice construction plus graph cone",
+    "S09": "E: finite imported quantum channel/instrument",
+    "S10": "F: direct ordered bit operations; imported logical rules, no learning claim"
+  },
+  "core_obligations": {
+    "A": "2D continuous OU, known gain/full rank/rank loss/missing masks and unknown gain gauge; direct linear F2 exact moments versus independent diagonal OU formula and Kalman; 16 fixed worlds,2 realizations,128 steps; no learned physical parameters here",
+    "B": "scalar cubic/quintic/logistic identification plus oracle Duffing; manifold/off-manifold; Ito cubic lift; degree7 analytic grammar obstruction and fixed quintic mismatch, not discovery",
+    "C": "oracle harmonic/forced+damped Duffing; mechanical energy and integrated work-dissipation, no conservation in driven case",
+    "D": "two endpoints,delay1/3,disconnected,swapped decode,common input,known sensor gain,external probe and hybrid quantum control;128 steps; independent analytic environment reference",
+    "E": "qubit amplitude damping/dephasing, valid conditional instruments, finite Choi check, unital restriction; one/two-qubit finite construction; known channel comparator",
+    "F": "all8 bit states x25 ordered gate pairs,128-step predeclared tape,erase/provenance cardinality; truth-table comparator"
+  },
+  "limitations": [
+    "A unknown sensor gain is an observational-equivalence negative control; no unknown-gain estimator",
+    "C central inverse-square trajectories not run",
+    "D endpoint identity is operational label continuity; transmission fidelity not an independent communication code benchmark",
+    "B quintic stochastic lift not run; cubic EM manifold residual exceeds1e-5",
+    "No S05 resource saturation/S07 tanh dynamics",
+    "No learned quantum channel comparator; analytic physical comparator only"
+  ]
+}

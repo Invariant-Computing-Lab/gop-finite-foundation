@@ -1,0 +1,17 @@
+{
+  "delay": 1,
+  "connected": 1.0,
+  "sensor_gain": [
+    1.0,
+    1.0
+  ],
+  "encode": [
+    1.0,
+    1.0
+  ],
+  "decode": [
+    -1.0,
+    1.0
+  ],
+  "common_input": false
+}

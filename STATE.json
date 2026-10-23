@@ -1,0 +1,24 @@
+{
+  "phase": "FROZEN",
+  "time": "2026-10-02T09:17:28.161143+00:00",
+  "release_status": "FROZEN_LIMITED",
+  "foundation_id": "GOP_TOE_FOUNDATION_v1_0",
+  "version": "1.0.0",
+  "candidate_id": "F2a",
+  "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+  "universal_claim_status": "CONJECTURE_UNESTABLISHED",
+  "full_requested_battery_complete": false,
+  "technical_blocked": false,
+  "completed": [
+    "source_integrity",
+    "explicit_F2a",
+    "development",
+    "freeze",
+    "final_evaluation",
+    "physical_controls",
+    "intake",
+    "manuscripts",
+    "fresh_directory_audit"
+  ],
+  "next": "Terminal. Future studies use integration/NEXT_STUDY_PROMPT_TR.txt; no automatic candidate search."
+}

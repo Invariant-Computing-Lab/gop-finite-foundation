@@ -1,0 +1,35 @@
+[
+  {
+    "family": "cubic",
+    "comparator": "sparse_degree7",
+    "mean_difference": -1.0018356096558026e-08,
+    "approx_98_333_interval": [
+      -1.7603904459339696e-08,
+      -3.7921542401676495e-09
+    ],
+    "status": "INCONCLUSIVE",
+    "independent_worlds": 16
+  },
+  {
+    "family": "quintic",
+    "comparator": "sparse_degree7",
+    "mean_difference": -1.0813226785197257e-08,
+    "approx_98_333_interval": [
+      -2.2864532940931512e-08,
+      -1.8238980689091605e-09
+    ],
+    "status": "INCONCLUSIVE",
+    "independent_worlds": 16
+  },
+  {
+    "family": "logistic",
+    "comparator": "no_lift_quadratic",
+    "mean_difference": -5.357770240901393e-09,
+    "approx_98_333_interval": [
+      -1.2816540325384389e-08,
+      6.555236736945139e-10
+    ],
+    "status": "INCONCLUSIVE",
+    "independent_worlds": 16
+  }
+]

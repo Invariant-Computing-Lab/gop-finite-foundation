@@ -1,0 +1,12 @@
+{
+  "phase": "AUDIT",
+  "time": "2026-10-02T08:56:14.607544+00:00",
+  "release_status": "FROZEN_LIMITED",
+  "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+  "completed": [
+    "frozen_scalar_evaluation",
+    "physical_controls",
+    "historical_intake"
+  ],
+  "next": "manuscripts; fresh-directory verification; package"
+}

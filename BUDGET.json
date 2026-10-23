@@ -1,0 +1,13 @@
+{
+  "cpu_minutes_max": 120,
+  "selected_suite_cpu_minutes_max": 10,
+  "workers": 1,
+  "blas_threads": 1,
+  "smoke_cpu_seconds": 0.178716807,
+  "selected_profile": "12 train,8 development,12 calibration,16 final worlds per3 scalar families;2 realizations;128steps; fixed physical controls",
+  "prospective_reductions": [
+    "Only3 scalar families receive learned comparison; S05/S07 unmapped, central force and full thermodynamic path suite not run"
+  ],
+  "candidate_scientific_repairs": 0,
+  "numerical_search_stop": "after frozen final evaluation; no F2b/F3"
+}

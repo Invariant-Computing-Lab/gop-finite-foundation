@@ -1,0 +1,36 @@
+{
+  "academic_publications_excluded_from_corrected_package": true,
+  "excluded_publication_related_paths": [
+    {
+      "path": "manuscript/SOURCE_VERIFICATION.json",
+      "sha256": "b707cb470665d74e0596858c758ada7c8193d5b21981c29d4437ce977b142ae0"
+    },
+    {
+      "path": "manuscript/supplement.tex",
+      "sha256": "8093d0639ed65bff1d8d7bdbb25a4ca60a378db2fe95d36fb550f5a731dfc529"
+    },
+    {
+      "path": "manuscript/equation_card.tex",
+      "sha256": "956792e1f58afe3d5a8df4de7b3f3c24d13504d42243819d2bb333d76401fa13"
+    },
+    {
+      "path": "manuscript/paper.md",
+      "sha256": "c84ecacef0c8900cb9c704c2af92ded34dc2764eb732a1309f2d01ed3a1ada89"
+    },
+    {
+      "path": "manuscript/paper.tex",
+      "sha256": "1281cb5afddb59a3b3cc9e9abccf118c54d54efa143954e9ed31f93f525c071d"
+    },
+    {
+      "path": "manuscript/references.bib",
+      "sha256": "e6e837adc8538e6655f8795cbfaff94b884682bc5268e10d5b53770dda05f519"
+    }
+  ],
+  "new_zip_copies_software_files_only": true,
+  "original_release_zip_filename": "gop-finite-foundation__CP03R1__e333082833ad.zip",
+  "original_release_zip_sha256": "5ffd11a78528aae4c3d21611d3c4911f2a2ed069769561ae3dfc40a280582d3f",
+  "public_release_approved": false,
+  "repository": "gop-finite-foundation",
+  "schema": "invariant.v7.publication_exclusion.v1",
+  "source_archive_unchanged": true
+}

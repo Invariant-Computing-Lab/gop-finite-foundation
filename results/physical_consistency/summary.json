@@ -1,0 +1,186 @@
+{
+  "nonlinear": {
+    "convergence": [
+      {
+        "r": 2,
+        "h": 0.1,
+        "error": 5.344178976296465e-06,
+        "manifold": 1.6147789245746225e-05
+      },
+      {
+        "r": 2,
+        "h": 0.05,
+        "error": 2.8983676980676165e-07,
+        "manifold": 1.061260516466156e-06
+      },
+      {
+        "r": 2,
+        "h": 0.025,
+        "error": 1.679216737882072e-08,
+        "manifold": 6.616293013461672e-08
+      },
+      {
+        "r": 4,
+        "h": 0.1,
+        "error": 3.775084650270433e-05,
+        "manifold": 0.0001452127657033675
+      },
+      {
+        "r": 4,
+        "h": 0.05,
+        "error": 1.6813589410191732e-06,
+        "manifold": 1.0981236383433846e-05
+      },
+      {
+        "r": 4,
+        "h": 0.025,
+        "error": 8.768642006939942e-08,
+        "manifold": 6.833702517194951e-07
+      }
+    ],
+    "ito": [
+      {
+        "steps": 64,
+        "manifold_rms": 0.0023315331551076656,
+        "x_mean": 0.28622387976528274,
+        "x_variance": 0.011824822024194728
+      },
+      {
+        "steps": 128,
+        "manifold_rms": 0.001614552704338767,
+        "x_mean": 0.28660175087461937,
+        "x_variance": 0.011784002295522985
+      },
+      {
+        "steps": 256,
+        "manifold_rms": 0.001128169961823336,
+        "x_mean": 0.2867899667821736,
+        "x_variance": 0.011763239141997613
+      }
+    ],
+    "degree7_fixed_quintic_max_error": 0.02322957584731411,
+    "analytic_obstruction": "For highest lift exponent m<=4 in xdot=-x-x^7, derivative has nonzero x^(m+6), but quadratic monomials have degree<=2m. Since m+6>2m, no exact closure. Applies to autonomous identity-decoder monomial lift, no hidden physical states/instrument substitutions.",
+    "scientific_status": "BOUNDED_INSTANCE_CONTRADICTED for universal exact closure under this grammar; known cubic/quintic conditional embeddings supported"
+  },
+  "mechanics": [
+    {
+      "case": "harmonic",
+      "max_trajectory_error": 1.0496021482508944e-09,
+      "work_balance_max": 8.816558594304524e-12,
+      "energy_change": -8.816558594304524e-12,
+      "manifold_max": 4.248697615949482e-09,
+      "status": "IMPORTED_CONSISTENCY"
+    },
+    {
+      "case": "duffing_forced",
+      "max_trajectory_error": 2.2289609047376757e-09,
+      "work_balance_max": 1.0302604325218567e-09,
+      "energy_change": -0.23420129786429766,
+      "manifold_max": 3.570951423448321e-09,
+      "status": "IMPORTED_CONSISTENCY"
+    }
+  ],
+  "loops": {
+    "cases": [
+      {
+        "case": "connected",
+        "max_reference_error": 1.7056578371921205e-11,
+        "probe_B_max_effect": 0.0005635361795782792,
+        "first_B_effect_tick": 11,
+        "goal0_mean_world_square": 0.03088848475625354,
+        "transmission_rms": 0.17467024684201915,
+        "transmission_metric_note": "received-vs-current-memory difference includes delay; not bit error or human meaning",
+        "max_state": 0.7
+      },
+      {
+        "case": "delay3",
+        "max_reference_error": 1.7043477740230628e-11,
+        "probe_B_max_effect": 0.0005612216513823376,
+        "first_B_effect_tick": 13,
+        "goal0_mean_world_square": 0.030868638154013167,
+        "transmission_rms": 0.17508903520581465,
+        "transmission_metric_note": "received-vs-current-memory difference includes delay; not bit error or human meaning",
+        "max_state": 0.7
+      },
+      {
+        "case": "disconnected",
+        "max_reference_error": 1.6954104786748303e-11,
+        "probe_B_max_effect": 0.0,
+        "first_B_effect_tick": null,
+        "goal0_mean_world_square": 0.030337079200026196,
+        "transmission_rms": 0.12116560392939006,
+        "transmission_metric_note": "received-vs-current-memory difference includes delay; not bit error or human meaning",
+        "max_state": 0.7
+      },
+      {
+        "case": "swapped_codebook",
+        "max_reference_error": 1.6855850049068977e-11,
+        "probe_B_max_effect": 0.0005149964199457763,
+        "first_B_effect_tick": 11,
+        "goal0_mean_world_square": 0.030637281075883937,
+        "transmission_rms": 0.16791267126473344,
+        "transmission_metric_note": "received-vs-current-memory difference includes delay; not bit error or human meaning",
+        "max_state": 0.7
+      },
+      {
+        "case": "sensor_change",
+        "max_reference_error": 3.411315674384241e-11,
+        "probe_B_max_effect": 0.0005635361795782792,
+        "first_B_effect_tick": 11,
+        "goal0_mean_world_square": 0.03088848475625354,
+        "transmission_rms": 0.17467024684201915,
+        "transmission_metric_note": "received-vs-current-memory difference includes delay; not bit error or human meaning",
+        "max_state": 0.7
+      },
+      {
+        "case": "common_input",
+        "max_reference_error": 1.6795037582895134e-11,
+        "probe_B_max_effect": 0.0,
+        "first_B_effect_tick": null,
+        "goal0_mean_world_square": 0.0353840091824295,
+        "transmission_rms": 0.13165301246612143,
+        "transmission_metric_note": "received-vs-current-memory difference includes delay; not bit error or human meaning",
+        "max_state": 0.7
+      }
+    ],
+    "hybrid_min_eig": 2.64591406581757e-06,
+    "hybrid_trace_error": 2.220446049250313e-16,
+    "physical_boundary": "two dissipative world coordinates; two separately updated endpoint memories; two explicit FIFOs. Work sources/reservoir dynamics outside; identity means retained state labels over 6.4 time units, not autonomous agency."
+  },
+  "quantum": {
+    "max_analytic_error": 1.6653345369377348e-15,
+    "min_density_eigenvalue": 0.05401228751864489,
+    "max_trace_error": 1.887379141862766e-15,
+    "min_choi_eigenvalue": -1.9617808781631324e-30,
+    "max_probability_sum_error": 1.9984014443252818e-15,
+    "joint_probability_sum": 0.9999999999999997,
+    "unital_max_mixed_deviation": 0.0,
+    "amplitude_mixed_trace_distance": 0.16483997698218036,
+    "bell_no_signal_max_error": 0.0,
+    "status": "IMPORTED_CONSISTENCY; no derived Born/GKSL law; analytic oracle baseline, no channel identification or experimental quantum data"
+  },
+  "discrete": {
+    "ordered_pair_cases": 200,
+    "pair_mismatches": 0,
+    "order_sensitive_cases": 64,
+    "long_rollout_mismatches": 0,
+    "original_distinctions": 8,
+    "erased_distinctions": 4,
+    "retained_distinctions": 8,
+    "max_outside_discrete_cone": 0.0,
+    "status": "IMPORTED_CONSISTENCY; no Landauer heat measured, no Lorentz result"
+  },
+  "linear": {
+    "records": 276,
+    "valid_coordinates": 433,
+    "worlds": 16,
+    "nested_realizations": 2,
+    "gaussian_nll_mean": -1.1893522914126953,
+    "marginal95_coverage": 0.9561200923787528,
+    "mean_interval_width": 0.541843312305428,
+    "max_Kalman_difference": 2.2985086056692694e-15,
+    "gauge_max_error": 0.0,
+    "equal_rate_sum_sensor_negative_control": 0.0,
+    "identification_status": "unknown gain/scale nonidentifiable; rank-one equal-rate negative control not invertible; distinct-rate rank-one may be dynamically observable; no claim all rank loss is unidentifiable"
+  }
+}

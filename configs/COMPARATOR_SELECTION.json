@@ -1,0 +1,35 @@
+{
+  "cubic": {
+    "primary_comparator": "sparse_degree7",
+    "development_mse_h16": {
+      "F0_P_legacy": 0.0008661849744506078,
+      "linear_drift": 0.000785100247637969,
+      "no_lift_quadratic": 0.0008365927994621138,
+      "persistence": 0.01195225334529525,
+      "sparse_degree7": 4.6285297747890546e-08,
+      "training_mean": 0.06609238559679444
+    }
+  },
+  "quintic": {
+    "primary_comparator": "sparse_degree7",
+    "development_mse_h16": {
+      "F0_P_legacy": 0.001145210655083536,
+      "linear_drift": 0.0010169337700542559,
+      "no_lift_quadratic": 0.0011039988029001783,
+      "persistence": 0.010096990510401093,
+      "sparse_degree7": 2.4742854956424332e-08,
+      "training_mean": 0.0415216215953029
+    }
+  },
+  "logistic": {
+    "primary_comparator": "no_lift_quadratic",
+    "development_mse_h16": {
+      "F0_P_legacy": 2.4035002913558998e-08,
+      "linear_drift": 0.00035039052279274823,
+      "no_lift_quadratic": 1.425748241731807e-08,
+      "persistence": 0.007404885373125475,
+      "sparse_degree7": 8.744632243166522e-07,
+      "training_mean": 0.08650542094566244
+    }
+  }
+}

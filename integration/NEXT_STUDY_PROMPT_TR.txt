@@ -1,0 +1,13 @@
+Ekli GOP_TOE_FOUNDATION_v1_0.zip temelini ve yeni çalışma dosyalarını aç. Önce FOUNDATION_CARD.md, CORE_MANIFEST.json ve integration/INTEGRATION_CONTRACT.md dosyalarını oku. Temeli yeniden geliştirme veya deneyleri yeniden seçme.
+
+Yeni kaynakları içerik hashleri ve kesin konumlarıyla kaydet. Kaynağın iddiasını kendi yorumundan ayır. RARI, OCIL_OCIR, AFC, SACRA veya UNASSIGNED programını gerekçeyle seç; yeni program kurma. İlgili çekirdek iddiaları/varsayımları, birimler, sistem/popülasyon, müdahale, bağımsız örnek birimi ve veri kökenini eşleştir. Olumsuz, boş veya eşlenemeyen bulguları koru. Kaynak gelmediyse veya köprü yoksa bunu açık tut.
+
+Çıkarılmış temel kökünden gerçek komutlar:
+python -m gop_intake init --core . --study-dir ../new_study
+Kaynakları new_study içine koy; study_record.json alanlarını kaynağa göre doldur. Şablondaki template_only ancak gerçek kayıt hazırsa false olmalı; review_status unreviewed kalır. Kaynak SHA256 gerçek dosya baytlarından hesaplanır.
+python -m gop_intake ingest --core . --record ../new_study/study_record.json
+python -m gop_intake assess --core . --study-id GERCEK_CALISMA_KIMLIGI
+python -m gop_intake verify --core .
+python -m gop_intake export --core . --study-id GERCEK_CALISMA_KIMLIGI --out ../study_addon.zip
+
+Destek, karşı örnek, sınırlama, tasarım katkısı veya UNMAPPED sonucunu ayır. Denklem/varsayım değişikliği gerekiyorsa yalnızca core_revision_request oluştur; asıl çekirdeği değiştirme. Aynı veri setinin ikinci makalesini bağımsız doğrulama sayma. Ekleme paketini, değişmeyen çekirdek hashini ve kısa Türkçe yorumu teslim et. Asıl ZIP'in üstüne yazma.

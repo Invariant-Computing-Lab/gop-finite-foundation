@@ -1,0 +1,7 @@
+{"id":"A-MONOMIAL","text":"Derived monomials total degree2..4 with identity physical decoder; <=min(2d,16) added coordinates; locality and block budget fixed."}
+{"id":"A-OBS","text":"Only available observations, declared sensor calibration, public controls and reset preparations enter inference; simulator coefficients are evaluator-only in learned scalar track."}
+{"id":"A-PHYS","text":"Probability, Ito calculus, Hamiltonian/force choices and GKSL/Born structure are imported; no common physical constants derived."}
+{"id":"A-TIME","text":"External clock and finite graph supplied; synchronous discrete locality does not imply Lorentz covariance."}
+{"id":"A-OPEN","text":"Apparatus, policies and work sources are prescribed; no global closed energy balance or intrinsic autonomy."}
+{"id":"A-UNIT","text":"All numerical states use fixed nondimensional reference scales; lift units multiply; actual measurements preserve masks."}
+{"id":"A-NORM","text":"Designer task relevance, transmission, autonomy, human meaning and wellbeing are distinct. No clinical or human meaning study performed."}

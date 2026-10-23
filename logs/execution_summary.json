@@ -1,0 +1,21 @@
+{
+  "python_environment": "environment.json",
+  "phase_commands": [
+    "python -m src.experiment training",
+    "python -m src.experiment development",
+    "python -m src.scoring.summarize --select",
+    "freeze manifest created",
+    "python -m src.experiment calibration",
+    "python -m src.experiment final",
+    "python -m src.physical",
+    "python -m src.scoring.summarize",
+    "python -m unittest discover -s tests -v",
+    "python -m src.verify_release"
+  ],
+  "command_list_type": "documented executed phase commands; not a complete terminal transcript",
+  "cpu_seconds_logged_runs": 15.102756494,
+  "cpu_budget_minutes": 120,
+  "no_paid_services": true,
+  "no_publication": true,
+  "no_inherited_pickle_loading": true
+}

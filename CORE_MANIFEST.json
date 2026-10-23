@@ -1,0 +1,146 @@
+{
+  "foundation_id": "GOP_TOE_FOUNDATION_v1_0",
+  "version": "1.0.0",
+  "candidate_id": "F2a",
+  "core_sha256": "cc99f94bd75a67c0035c8342ef3fdc4ba1d937a586bef2ede4354f1d829ce8b7",
+  "canonicalization": "SHA256 of UTF-8 json.dumps(sorted entries,sort_keys=True,separators=(comma,colon),ensure_ascii=False); entries ordered by relative POSIX path; each entry path and sha256; exclude manifest and FREEZE self-reference, bytecode and mutable results/evidence",
+  "entries": [
+    {
+      "path": "adapters/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "adapters/operators.py",
+      "sha256": "a6db855274d12f90f3e32c5f1f9c4ddd5f25c4f99fac97e466c2784d30e8de4a"
+    },
+    {
+      "path": "configs/BUDGET.json",
+      "sha256": "ad7ed37a397b578f26e57ceed199f0d50027b520cdb43351eb57928779f6048b"
+    },
+    {
+      "path": "configs/COMPARATOR_SELECTION.json",
+      "sha256": "03a66acef132f407837123bfb8f06f36af66d8d4642a06c6156c647563a323dc"
+    },
+    {
+      "path": "configs/TEST_PLAN.json",
+      "sha256": "9518578496b2bffa2595a7f7d170eb53ae10a289046a0aa00689da48bb86b55f"
+    },
+    {
+      "path": "core/ASSUMPTIONS.jsonl",
+      "sha256": "0e046d594a3a278ec51496991dcfef115d08d9e139f38080f24149cfbe81c070"
+    },
+    {
+      "path": "core/CLAIMS.jsonl",
+      "sha256": "3ffeea02d138e1dc5067a58867b0b3b434ac36eb91884f54547d212427c28fea"
+    },
+    {
+      "path": "core/EQUATION_CARD.md",
+      "sha256": "0e8ba30d49346b62f2365c799fe1e819bf9df7f15e3f7e24437f58acf06c53ce"
+    },
+    {
+      "path": "core/FORMAL_CORE.tex",
+      "sha256": "b1a71d5b632204f4333df254d3527e0cc5b07e942a21d9e4b14248b4fc18f37b"
+    },
+    {
+      "path": "core/LIFTING_CONTRACT.json",
+      "sha256": "b43e51748b9491e3aedf7f3cb33689bf3bd9d759090e125c386909f13caac87e"
+    },
+    {
+      "path": "core/PROOFS_AND_COUNTEREXAMPLES.md",
+      "sha256": "bf4a53f4ed0e11587df2f1ce45d94f5db1db4e7f799c01de59b46b4c67d6c692"
+    },
+    {
+      "path": "core/TRACEABILITY.jsonl",
+      "sha256": "2735395d5dd60619f2b52141cebf11603b94e5be5ea7a0479e3f487a27b179be"
+    },
+    {
+      "path": "core/UNIVERSALITY_STATEMENT.md",
+      "sha256": "79143f41950529f4999a60ad5ce773bd287b80bf4d037c1066bb81eb41fced10"
+    },
+    {
+      "path": "core/specification.json",
+      "sha256": "b43e51748b9491e3aedf7f3cb33689bf3bd9d759090e125c386909f13caac87e"
+    },
+    {
+      "path": "gop_intake/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "gop_intake/__main__.py",
+      "sha256": "4778df5c293ad8e588a51b8d23818f52d71583d1b526e692ce7af42713920d37"
+    },
+    {
+      "path": "schemas/study_record.schema.json",
+      "sha256": "4c41c960d2ea2ed7d87341d31b6e77686b7cd90c8b9ffe9177aade2e486fdc87"
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/candidate/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/candidate/law.py",
+      "sha256": "9297fa4e4515220acca2583585a7028b41f01c506c2acf518fa2936bd26107b8"
+    },
+    {
+      "path": "src/common.py",
+      "sha256": "0247a92ad8867f0a8cbb1d2f3f4d99d58694a961047e76f4d0cf9ab441b5e801"
+    },
+    {
+      "path": "src/experiment.py",
+      "sha256": "346dc718977810dacb0f29b5fcb15c348685b3624e03be41840aec71e2db3543"
+    },
+    {
+      "path": "src/inference/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/inference/fit.py",
+      "sha256": "043e3250b57eba1b0d99018912d8909390850ca083aeb98c3016f3d01b281f53"
+    },
+    {
+      "path": "src/inference/legacy_quadratic.py",
+      "sha256": "5deadedfa11191006ba4b7df112b8c040932c257b0d1754d4ab4bd184de497e7"
+    },
+    {
+      "path": "src/intake/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/physical.py",
+      "sha256": "1434684df6e2e9622bccd7e5a5f70a57e3dd20d19290dcf00fe7434e601be608"
+    },
+    {
+      "path": "src/reference/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/reference/worlds.py",
+      "sha256": "98fae4da7048bc7a5648c60da9625ebf137a0bad87435f5f270a0e3f5e0b7bea"
+    },
+    {
+      "path": "src/scoring/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/scoring/summarize.py",
+      "sha256": "5bb116a247d3367ec0d81cfa2642b6dda0ad86cc3c1a55a17e2fa14e8531bda9"
+    },
+    {
+      "path": "src/verify_release.py",
+      "sha256": "ac3516ec2f66657e042023393dee6029b46de691c772a683395fd08a013ce765"
+    },
+    {
+      "path": "tests/test_intake.py",
+      "sha256": "8e34e36a11bd45302ac8762c00bc5d13af33c6dd64b1d099d63ba89968ae3cf0"
+    },
+    {
+      "path": "tests/test_law.py",
+      "sha256": "93477b9ac0b028ba002e8d7fc294c7a94002712e750fa6130fbbcc0b808e2817"
+    }
+  ],
+  "freeze_sha256": "447f69c6f560e74797cc016a06d6a1fc5a9bf5952fc5e10823330c217760af57"
+}
